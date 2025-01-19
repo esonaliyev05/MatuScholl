@@ -145,16 +145,15 @@ const Main = () => {
               <div className="tols" data-aos="zoom-in">
                 {" "}
                 <div className="text">
-                Авторский курс от <span> Matu school</span> для кондитеров
-                  </div>{" "}
+                  Авторский курс от <span> Matu school</span> для кондитеров
+                </div>{" "}
                 <img src="Main-cent/2.png" alt="masssage" className="old" />{" "}
                 <img src="public/Main-cent/2.1.png" alt="" className="end" />
               </div>
-              <div className="tols"
-     data-aos="fade-left">
+              <div className="tols" data-aos="fade-left">
                 {" "}
                 <div className="text">
-                Гайд по приготовлению <span>бенто тортиков</span>
+                  Гайд по приготовлению <span>бенто тортиков</span>
                 </div>
                 <img
                   src="Main-cent/3.png"

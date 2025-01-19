@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="container">
           <div className="nav-logo">
             <img src="Nav-img/Mask group.png" alt="logo" />
-            <NavLink>
+            <NavLink to={"/"}>
               Онлайн школа <br /> для кондитеров
             </NavLink>
           </div>
@@ -41,7 +41,7 @@ const Navbar = () => {
                 <NavLink to={"/about"}>Отзывы</NavLink>
               </li>
               <li>
-                <NavLink>Техподдержка</NavLink>
+                <NavLink to={"/registor"}>Техподдержка</NavLink>
               </li>
             </ul>
 
@@ -74,7 +74,7 @@ const Navbar = () => {
                 <NavLink to={"/about"}>Отзывы</NavLink>
               </li>
               <li>
-                <NavLink>Техподдержка</NavLink>
+                <NavLink to={"/"}> Техподдержка</NavLink>
               </li>
             </ul>
 

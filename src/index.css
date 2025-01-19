@@ -6,3 +6,25 @@
   text-decoration: none;
   
 }
+
+/* Skrollning kengligi */
+::-webkit-scrollbar {
+  width: 5px; /* Vertikal skroll kengligi */
+  height: 8px; /* Gorizontal skroll kengligi */
+}
+
+/* Skroll fonining rangi */
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Orqa fon rangi */
+}
+
+/* Skroll tutqichining rangi */
+::-webkit-scrollbar-thumb {
+  background: pink; /* Skrollni ushlash qismi */
+  border-radius: 4px; /* Burchaklarni yumaloqlash */
+}
+
+/* Skroll tutqichining hover qilingandagi rangi */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Hover qilinganda quyuqroq bo'ladi */
+}

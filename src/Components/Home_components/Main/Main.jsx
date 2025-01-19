@@ -31,10 +31,7 @@ const Main = () => {
                   близких
                 </p>
               </div>
-              <div className="tab" 
-      data-aos="zoom-in"
-      data-aos-duration="500"
-      >
+              <div className="tab" data-aos="zoom-in" data-aos-duration="500">
                 <div className="icon">
                   {" "}
                   <HiLightBulb /> <h3>Новичок</h3>
@@ -44,9 +41,7 @@ const Main = () => {
                   и другие кондитеры
                 </p>
               </div>
-              <div className="tab"data-aos="zoom-in"
-      data-aos-duration="500"
-   >
+              <div className="tab" data-aos="zoom-in" data-aos-duration="500">
                 <div className="icon">
                   {" "}
                   <HiLightBulb /> <h3>Опытный</h3>{" "}
@@ -55,7 +50,7 @@ const Main = () => {
                   Вы уже опытный кондитер и хотите расширить свой ассортимент
                 </p>
               </div>
-              <div className="tab"  data-aos="fade-left">
+              <div className="tab" data-aos="fade-left">
                 <div className="icon">
                   {" "}
                   <HiLightBulb /> <h3>Ученик</h3>{" "}
@@ -69,16 +64,14 @@ const Main = () => {
           </div>
 
           <div className="main-cent">
-            <div className="main-img" 
-            data-aos="zoom-in"
-            >
+            <div className="main-img" data-aos="zoom-in">
               <img
                 src="Main-img/0885aed9716ce74c7508888bdd9d1fba.png"
                 alt="massanges"
               />
             </div>
             <div className="main-text-cent">
-              <h3 data-aos="zoom-out-down" >Основатель школы</h3>
+              <h3 data-aos="zoom-out-down">Основатель школы</h3>
 
               <h1 data-aos="zoom-out">
                 Матлюба <br />
@@ -90,72 +83,89 @@ const Main = () => {
               </p>
 
               <div className="boxses">
-  <div className="box">
-    <div
-      className="box-chiled"
-      data-aos="zoom-in"
-      data-aos-duration="500"
-      data-aos-delay="0" /* Boshlanishi kechiktirilmaydi */
-    >
-      12 <br />
-      лет
-    </div>
-    <p>опыта</p>
-  </div>
+                <div className="box">
+                  <div
+                    className="box-chiled"
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                    data-aos-delay="0" /* Boshlanishi kechiktirilmaydi */
+                  >
+                    12 <br />
+                    лет
+                  </div>
+                  <p>опыта</p>
+                </div>
 
-  <div className="box">
-    <div
-      className="box-chiled"
-      data-aos="zoom-in"
-      data-aos-duration="500"
-      data-aos-delay="500" /* 500ms kechikish */
-    >
-      400+
-    </div>
-    <p>учеников</p>
-  </div>
+                <div className="box">
+                  <div
+                    className="box-chiled"
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                    data-aos-delay="500" /* 500ms kechikish */
+                  >
+                    400+
+                  </div>
+                  <p>учеников</p>
+                </div>
 
-  <div className="box">
-    <div
-      className="box-chiled"
-      data-aos="zoom-in"
-      data-aos-duration="500"
-      data-aos-delay="1000" /* 1000ms kechikish */
-    >
-      800+
-    </div>
-    <p>работ</p>
-  </div>
-</div>
-
+                <div className="box">
+                  <div
+                    className="box-chiled"
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                    data-aos-delay="1000" /* 1000ms kechikish */
+                  >
+                    800+
+                  </div>
+                  <p>работ</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-          
-          <div className="main-controls">
-            <div className="container">
-              
-              <div className="controls-text">
-                <h1>обучение</h1>
 
-                <h2>может быть таким</h2>
+        <div className="main-controls">
+          <div className="container-tols">
+            <div className="controls-text">
+              <h1>обучение</h1>
+
+              <h2>может быть таким</h2>
+            </div>
+
+            <div className="controls-parent">
+              <div className="tols" data-aos="fade-right">
+                {" "}
+                <div className="text">
+                  Видео-уроки и технологичесике карты{" "}
+                  <span>для приготовления тортов</span>
+                </div>{" "}
+                <img src="Main-cent/1.png" alt="massange" className="old" />{" "}
+                <img src="public/Main-cent/1.1.png" alt="" className="end" />{" "}
               </div>
-
-                  
-                  <div className="controls-parent">
-                          
-                  <div className="tols"> <div className="text"></div> </div>
-                  <div className="tols"> <div className="text"></div> </div>
-                  <div className="tols"> <div className="text"></div> </div>
-                        
-
-                  </div>
-           
-
+              <div className="tols" data-aos="zoom-in">
+                {" "}
+                <div className="text">
+                Авторский курс от <span> Matu school</span> для кондитеров
+                  </div>{" "}
+                <img src="Main-cent/2.png" alt="masssage" className="old" />{" "}
+                <img src="public/Main-cent/2.1.png" alt="" className="end" />
+              </div>
+              <div className="tols"
+     data-aos="fade-left">
+                {" "}
+                <div className="text">
+                Гайд по приготовлению <span>бенто тортиков</span>
+                </div>
+                <img
+                  src="Main-cent/3.png"
+                  alt="massange"
+                  className="old"
+                  style={{ height: "100%", objectFit: "cover" }}
+                />
+              </div>
             </div>
           </div>
-
-
+        </div>
       </div>
     </div>
   );

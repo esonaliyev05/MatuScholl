@@ -20,6 +20,7 @@ const Navbar = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+  
 
   return (
     <>

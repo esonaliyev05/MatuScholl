@@ -2,6 +2,14 @@ import React, { useEffect } from "react";
 import "./Main.scss";
 import { HiLightBulb } from "react-icons/hi";
 import Aos from "aos";
+import Swiper from "../../Home_components/Swiper/Swiper";
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Typography,
+} from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const Main = () => {
   useEffect(() => {
@@ -9,7 +17,7 @@ const Main = () => {
     Aos.refresh(); // Har safar yangilash
   }, []);
   return (
-    <div>
+    <>
       <div className="main">
         <div className="container">
           <div className="main-text" data-aos="zoom-out-down">
@@ -145,16 +153,15 @@ const Main = () => {
               <div className="tols" data-aos="zoom-in">
                 {" "}
                 <div className="text">
-                Авторский курс от <span> Matu school</span> для кондитеров
-                  </div>{" "}
+                  Авторский курс от <span> Matu school</span> для кондитеров
+                </div>{" "}
                 <img src="Main-cent/2.png" alt="masssage" className="old" />{" "}
                 <img src="public/Main-cent/2.1.png" alt="" className="end" />
               </div>
-              <div className="tols"
-     data-aos="fade-left">
+              <div className="tols" data-aos="fade-left">
                 {" "}
                 <div className="text">
-                Гайд по приготовлению <span>бенто тортиков</span>
+                  Гайд по приготовлению <span>бенто тортиков</span>
                 </div>
                 <img
                   src="Main-cent/3.png"
@@ -166,8 +173,160 @@ const Main = () => {
             </div>
           </div>
         </div>
+
+        <div className="Main-swiper">
+          <h1>Ученики</h1>
+
+          <h3>довольные результатом обучения</h3>
+
+          <Swiper />
+        </div>
+       
+       <div className="main-acardion">
+
+              
+              <div className="acardion-text">
+                <h1>Ответы</h1>
+                <h3>на часто задааемые вопросы</h3>
+              </div>
+
+
+        <Accordion className="acardion">
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2-content"
+            id="panel2-header"
+          >
+            <Typography component="span">
+            Ниже мы собрали часто задаваемые вопросы и ответили на них
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        
+        <Accordion className="acardion">
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2-content"
+            id="panel2-header"
+          >
+            <Typography component="span">
+            Ниже мы собрали часто задаваемые вопросы и ответили на них
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+    
+    
+        <Accordion className="acardion">
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2-content"
+            id="panel2-header"
+          >
+            <Typography component="span">
+            Ниже мы собрали часто задаваемые вопросы и ответили на них
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+    
+    
+        <Accordion className="acardion">
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2-content"
+            id="panel2-header"
+          >
+            <Typography component="span">
+            Ниже мы собрали часто задаваемые вопросы и ответили на них
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+    
+    
+        <Accordion className="acardion">
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2-content"
+            id="panel2-header"
+          >
+            <Typography component="span">
+            Ниже мы собрали часто задаваемые вопросы и ответили на них
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+    
+    
+        <Accordion className="acardion">
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel2-content"
+            id="panel2-header"
+          >
+            <Typography component="span">
+            Ниже мы собрали часто задаваемые вопросы и ответили на них
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+              eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+    
+    
+
+    
+    
+    
+        
+       </div>
+        
+        <div className="main-end">
+
+           <h3>Остались Вопросы ?</h3>
+               <p>Напишите нам в техподдержку 
+и мы свяжемся с вами в ближайшее время и ответим на ваши вопросы</p>
+           <button>Техподдержка</button>
+        </div>
+
       </div>
-    </div>
+    </>
   );
 };
 

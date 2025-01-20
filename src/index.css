@@ -7,9 +7,6 @@
   
 }
 
-body{
-  overflow-x: hidden;
-}
 /* Skrollning kengligi */
 ::-webkit-scrollbar {
   width: 5px; /* Vertikal skroll kengligi */
@@ -31,3 +28,19 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #555; /* Hover qilinganda quyuqroq bo'ladi */
 }
+
+
+[data-aos] {
+  overflow: hidden; /* Animatsiyada chiqib ketishni cheklash */
+  visibility: hidden; /* Ko'rinmas qilish */
+  opacity: 0; /* Ko'rinmas qilish */
+  transform: translate3d(0, 0, 0); /* Pozitsiya boshqaruvi */
+}
+
+[data-aos].aos-animate {
+  visibility: visible; /* Ko'rinadi */
+  opacity: 1; /* To'liq ko'rinadi */
+  transform: translate3d(0, 0, 0); /* Normal pozitsiya */
+  transition: all 0.8s ease; /* Harakat tekisligi */
+}
+

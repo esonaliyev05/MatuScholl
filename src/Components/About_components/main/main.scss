@@ -1,0 +1,149 @@
+$text-color: #7a7156;
+$color: #ddb2d4;
+$color-2: #a19e93;
+$bg-color: #edbfe3;
+
+.Main-container{
+    width: 100%;
+    height: auto;
+    background: $bg-color;
+    padding: 50px 0;
+
+    .container{
+        width: 1200px;
+        height: 300px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 25px;
+        overflow: hidden;
+
+
+        .text-left{
+            width:  35%;
+            height: auto;
+
+            h3{
+              font-size: 28px;
+              color: $text-color;
+              line-height: 40px;
+
+              span{
+                font-weight: 900;
+                font-family: monospace;
+
+              }
+            }
+
+
+            button {
+                color: #2b2000; /* Matn rangi */
+                border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+                border-radius: 10px; /* Burchaklarni yumaloqlash */
+                padding: 15px 20px; /* Ichki masofa */
+                font-size: 18px; /* Matn o'lchami */
+                font-weight: bold; /* Matn qalinligi */
+                box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+                cursor: pointer;
+                outline: none;
+                background: linear-gradient(
+                  85.95deg,
+                  #fad167 0.32%,
+                  #ffe68f 60.58%,
+                  #ffe08f 120.85%
+                );
+                margin: 35px 0;
+        
+                &:hover {
+                  background-color: #f5d05a;
+                }
+              }
+        }
+
+        .imegs{
+            width: 30%;
+            height: auto;
+
+            img{
+                width: 100%;
+
+            }
+        }
+
+        .text-right{
+            width:  35%;
+            height: auto;
+
+            h3{
+              font-size: 28px;
+              color: $text-color;
+              line-height: 40px;
+
+              span{
+                font-weight: 900;
+                font-family: monospace;
+
+              }
+            }
+
+
+            button {
+                color: #2b2000; /* Matn rangi */
+                border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+                border-radius: 10px; /* Burchaklarni yumaloqlash */
+                padding: 15px 20px; /* Ichki masofa */
+                font-size: 18px; /* Matn o'lchami */
+                font-weight: bold; /* Matn qalinligi */
+                box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+                cursor: pointer;
+                outline: none;
+                background: linear-gradient(
+                  85.95deg,
+                  #fad167 0.32%,
+                  #ffe68f 60.58%,
+                  #ffe08f 120.85%
+                );
+                margin: 35px 0;
+        
+                &:hover {
+                  background-color: #f5d05a;
+                }
+              }
+
+        }
+         
+
+    }
+    
+    .Main-swiper{
+      width: 100%;
+      height: auto;
+
+      .swiper-text{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 70px 0;
+
+        h1{
+          font-size: 85px;
+          color: white;
+
+        }
+        h3{
+          color: white;
+          font-size: 35px;
+          font-weight: 700;
+          font-family: monospace;
+        }
+
+      }
+
+    }
+
+
+
+}

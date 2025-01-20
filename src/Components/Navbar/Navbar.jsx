@@ -47,7 +47,7 @@ const Navbar = () => {
             </ul>
 
             <div className="nav-btn">
-              <NavLink>
+              <NavLink to={"/concat"}>
                 <button>Личный кабинет</button>
               </NavLink>
 

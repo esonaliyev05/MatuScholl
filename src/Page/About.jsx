@@ -1,8 +1,15 @@
 import React from 'react'
+import AboutHeader from '../Components/About_components/header/AboutHeader'
+import Katalog from '../Components/About_components/Katalog/Katalog'
+import Main from '../Components/About_components/main/main'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <AboutHeader/>
+      <Katalog/>
+      <Main/>
+    </>
   )
 }
 

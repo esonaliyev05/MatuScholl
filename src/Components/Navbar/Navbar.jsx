@@ -42,7 +42,7 @@ const Navbar = () => {
                 <NavLink to={"/about"}>Отзывы</NavLink>
               </li>
               <li>
-                <NavLink to={"/registor"}>Техподдержка</NavLink>
+                <NavLink to={"/greetings"}>Техподдержка</NavLink>
               </li>
             </ul>
 
@@ -68,13 +68,13 @@ const Navbar = () => {
           </div>
              
         <ul>
-              <li>
+              <li onClick={() => setOpen(false)}>
                 <NavLink to={"/"}>Акции</NavLink>
               </li>
-              <li>
+              <li onClick={() => setOpen(false)}>
                 <NavLink to={"/about"}>Отзывы</NavLink>
               </li>
-              <li>
+              <li onClick={() => setOpen(false)}>
                 <NavLink to={"/"}> Техподдержка</NavLink>
               </li>
             </ul>

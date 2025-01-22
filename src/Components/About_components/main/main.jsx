@@ -2,6 +2,7 @@ import React from "react";
 import "./main.scss";
 import Swiper from "../../Home_components/Swiper/Swiper";
 import { GoCheck } from "react-icons/go";
+import SwiperAbour from "../../About_components/Swiper/SwiperAbout"
 
 const Main = () => {
   return (
@@ -90,9 +91,11 @@ const Main = () => {
             <div className="reject-big-img">
               <img src="About-control/blendir.png" alt="" className="old" />
               <img src="About-control/qozon.png" alt="" className="end" />
-               
-               <h1>Технологическая <br />
-карта</h1>
+
+              <h1>
+                Технологическая <br />
+                карта
+              </h1>
 
               <img
                 src="About-control/pichoq.png"
@@ -101,13 +104,17 @@ const Main = () => {
               />
               <img src="About-control/parta2.png" alt="" className="bg-img" />
             </div>
-                
-                <p className="text-reject">*точный состав урока вы найдете  <br />
-в описании каждого рецепта</p>
 
+            <p className="text-reject">
+              *точный состав урока вы найдете <br />в описании каждого рецепта
+            </p>
           </div>
         </div>
       </div>
+
+      {/* <Swiper/> */}
+      <SwiperAbour/>
+
     </div>
   );
 };

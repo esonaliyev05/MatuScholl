@@ -67,7 +67,11 @@ const Concat = () => {
   const closeModal = () => {
     setIsModalOpen(false); // Modalni yopish
   };
+  useEffect(() => {
+    window.scrollTo(50, 0);
 
+    
+  }, []);
 
   return (
     <>

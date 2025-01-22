@@ -4,6 +4,7 @@ import Home from "../Page/Home";
 import Navbar from "../Components/Navbar/Navbar";
 import About from "../Page/About";
 import Concat from "../Page/Concat";
+import Greetings from "../Page/Greetings";
 
 function App() {
   const location = useLocation();
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/greetings" element={<Greetings/>}/>
         <Route path="/concat" element={<Concat />} />
       </Routes>
     </>

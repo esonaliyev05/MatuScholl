@@ -98,7 +98,7 @@ nav{
         background: white;
         transition: all .2s ease-in;
         display: flex;
-            justify-content: space-between;
+            justify-content: start;
             align-items: center;
             flex-direction: column;
             padding: 50px 0;
@@ -123,14 +123,24 @@ nav{
 
             ul{
                 width: 100%;
+                height: auto;
                 display: flex;
+                justify-content: center;
                 gap: 50px;
+                flex-wrap: wrap;
+                margin-top: 50px;
 
                 li{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
                     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
                     a{
                         color: black;
+                        font-family: monospace;
+                        font-size: 18px;
+                        
                     }
                 }
             }

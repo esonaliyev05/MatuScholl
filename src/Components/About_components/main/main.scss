@@ -14,6 +14,7 @@ $bg-color: #edbfe3;
     height: auto;
     background: $bg-color;
     padding: 50px 0;
+    overflow: hidden;
 
     .container{
         width: 1200px;
@@ -1234,7 +1235,7 @@ $bg-color: #edbfe3;
       .container-reject{
           width: 100%;
           height: auto;
-          margin: 0 auto;
+          margin: 20px auto;
           flex-wrap: wrap;
 
           
@@ -1270,14 +1271,15 @@ $bg-color: #edbfe3;
             flex-wrap: wrap;
 
             .reject-text{
-              width: 100%;
+              width: 90%;
               height: auto;
+              margin: 0 auto;
 
               .box{
                 width: auto;
                 display: flex;
                 gap: 25px;
-                margin: 25px 0;
+                margin: 25px auto;
 
                 .icon{
                   width: 40px;
@@ -1311,7 +1313,7 @@ $bg-color: #edbfe3;
               margin: 0 auto;
 
               .img-old{
-                width: 100px;
+                width: 150px;
                 position: absolute;
                 bottom: 0;
                 z-index: 2;
@@ -1324,12 +1326,12 @@ $bg-color: #edbfe3;
                 font-size: 32px;
                 position: absolute;
                 top: 25%;
-                left: 5%;
+                left: 45%;
                 z-index: 3;
 
               }
               .img-end{
-                width: 150px;
+                width: 200px;
                 position: absolute;
                 z-index: 2;
                 right: 0;
@@ -1340,7 +1342,7 @@ $bg-color: #edbfe3;
                 position: absolute;
                 width: 100%;
                 z-index: 1;
-                bottom: 0;
+                bottom: -10%;
                 left: 0;
               }
                
@@ -1362,7 +1364,7 @@ $bg-color: #edbfe3;
 
               
               .old{
-                width: 110px;
+                width: 180px;
                 height: auto;
                 position: absolute;
                 left: 0;
@@ -1372,7 +1374,7 @@ $bg-color: #edbfe3;
               }
 
               .end{
-                width: 150px;
+                width: 180px;
                 height: auto;
                 position: absolute;
                 right: 0;
@@ -1389,7 +1391,7 @@ $bg-color: #edbfe3;
                 z-index: 3;
                 top: 20%;
                 text-align: center;
-                left: 15%;
+                left: 45%;
                
  
 

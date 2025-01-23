@@ -75,7 +75,7 @@ const Navbar = () => {
                 <NavLink to={"/about"}>Отзывы</NavLink>
               </li>
               <li onClick={() => setOpen(false)}>
-                <NavLink to={"/"}> Техподдержка</NavLink>
+                <NavLink to={"/greetings"}> Техподдержка</NavLink>
               </li>
             </ul>
 

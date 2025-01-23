@@ -294,5 +294,40 @@ $bg-color: #edbfe3;
          
       }
     }
+    .btn{
+      width: 100%;
+      height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      button {
+        color: #2b2000; /* Matn rangi */
+        border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+        border-radius: 10px; /* Burchaklarni yumaloqlash */
+        padding: 20px 60px; /* Ichki masofa */
+        font-size: 18px; /* Matn o'lchami */
+        font-weight: bold; /* Matn qalinligi */
+        box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+        cursor: pointer;
+        outline: none;
+        margin: 15px 0;
+        background: linear-gradient(
+          85.95deg,
+          #fad167 0.32%,
+          #ffe68f 60.58%,
+          #ffe08f 120.85%
+        );
+        margin: 35px 0;
+
+        &:hover {
+          background-color: #f5d05a;
+        }
+      }
+
+
+
+    }
   }
 }

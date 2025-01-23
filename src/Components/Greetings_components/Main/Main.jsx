@@ -187,6 +187,10 @@ const Main = () => {
                        <div className="box"></div>
 
          </div>
+           
+           <div className="btn">
+            <button>Перейти в каталог рецептов</button>
+           </div>
 
        </div>
 

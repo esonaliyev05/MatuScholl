@@ -291,16 +291,14 @@ $bg-color: #edbfe3;
         background-color: gray;
         margin: 20px;
         border-radius: 15px;
-         
       }
     }
-    .btn{
+    .btn {
       width: 100%;
       height: 180px;
       display: flex;
       justify-content: center;
       align-items: center;
-
 
       button {
         color: #2b2000; /* Matn rangi */
@@ -325,9 +323,6 @@ $bg-color: #edbfe3;
           background-color: #f5d05a;
         }
       }
-
-
-
     }
   }
 }
@@ -337,9 +332,703 @@ $bg-color: #edbfe3;
     height: auto;
     position: relative;
     padding: 50px 0 0 0;
-  
+
     .container {
       width: 100%;
+      height: auto;
+      margin: 0 auto;
+
+      .Main-section {
+        width: 100%;
+        height: auto;
+
+        .section-old {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          .text {
+            width: 100%;
+            height: auto;
+            margin: 15px 0;
+            text-align: center;
+
+            p {
+              color: $text-color;
+              font-family: monospace;
+              font-size: 20px;
+              font-weight: normal;
+            }
+
+            h1 {
+              color: $text-color;
+              font-size: 40px;
+              margin: 20px 0;
+            }
+          }
+
+          img {
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+          }
+        }
+
+        .section-end {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+
+          img {
+            width: 85%;
+            height: 250px;
+            margin: 0 auto;
+            object-fit: cover;
+            border-radius: 16px;
+          }
+
+          .text {
+            width: 90%;
+            height: auto;
+            text-align: start;
+            margin: 0 auto;
+
+            h3 {
+              color: $text-color;
+              font-family: monospace;
+              font-size: 32px;
+              font-weight: 900;
+            }
+
+            ol {
+              width: auto;
+
+              li {
+                font-size: 18px;
+                color: $text-color;
+                font-family: monospace;
+                margin: 15px 0;
+              }
+            }
+          }
+        }
+      }
+
+      .Main-section-vido {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+        .vido-section-chiled {
+          width: 92%;
+          height: auto;
+          margin: 25px auto;
+
+          .text {
+            width: 100%;
+            height: auto;
+            text-align: start;
+
+            h1 {
+              color: $text-color;
+              font-size: 25px;
+              text-transform: uppercase;
+
+              span {
+                font-size: 30px;
+                font-weight: 400;
+              }
+            }
+          }
+
+          .Video {
+            width: 100%;
+            height: 340px;
+            border-radius: 20px;
+            margin: 15px auto;
+          }
+        }
+      }
+    }
+    .main-container {
+      width: 100%;
+      height: 1000px;
+      background: $bg-color;
+      padding: 30px 0;
+
+      .parent-container {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+
+        .main-pdf {
+          width: 90%;
+          height: 250px;
+          background: white;
+          margin: 35px auto;
+          position: relative;
+          border-radius: 16px;
+
+          .text {
+            width: 55%;
+            height: auto;
+            text-align: start;
+            position: relative;
+            left: 50px;
+            top: 20%;
+
+            h1 {
+              color: $text-color;
+              font-size: 45px;
+            }
+
+            p {
+              color: $color-2;
+              font-family: monospace;
+              font-size: 20px;
+              margin: 10px 0;
+            }
+
+            a {
+              color: #7a7156;
+              display: flex;
+              align-items: center;
+              font-family: monospace;
+              font-size: 18px;
+              align-items: center;
+              gap: 10px;
+            }
+          }
+
+          .pdf {
+            width: 65px;
+            height: auto;
+            position: absolute;
+            right: 12%;
+            bottom: 2px;
+            z-index: 2;
+          }
+          .pdf-end {
+            width: 190px;
+            height: auto;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+          }
+        }
+
+        .main-parent {
+          width: 100%;
+          height: 250px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+
+          .text {
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+
+            p {
+              color: white;
+              font-family: monospace;
+              font-size: 25px;
+              font-weight: 600;
+            }
+            h1 {
+              color: $text-color;
+              font-size: 35px;
+              text-transform: uppercase;
+              margin: 10px 0;
+              font-weight: 900;
+            }
+            h4 {
+              font-size: 18px;
+              color: white;
+              font-family: monospace;
+              margin: 10px 0;
+            }
+
+            button {
+              color: #2b2000; /* Matn rangi */
+              border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+              border-radius: 10px; /* Burchaklarni yumaloqlash */
+              padding: 20px 60px; /* Ichki masofa */
+              font-size: 18px; /* Matn o'lchami */
+              font-weight: bold; /* Matn qalinligi */
+              box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+              cursor: pointer;
+              outline: none;
+              margin: 15px 0;
+              background: linear-gradient(
+                85.95deg,
+                #fad167 0.32%,
+                #ffe68f 60.58%,
+                #ffe08f 120.85%
+              );
+              margin: 35px auto;
+
+              &:hover {
+                background-color: #f5d05a;
+              }
+            }
+          }
+
+          .img {
+            width: auto;
+            height: auto;
+
+            img {
+              width: 100%;
+              height: auto;
+              object-fit: contain;
+            }
+          }
+        }
+      }
+    }
+
+    .section-parent {
+      width: 100%;
+      height: auto;
+
+      .text-section {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 30px 0;
+
+        h1 {
+          color: $text-color;
+          font-size: 55px;
+        }
+        h3 {
+          color: $text-color;
+          font-size: 30px;
+          font-family: monospace;
+          margin: 10px 0;
+        }
+      }
+
+      .boxses {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+
+        .box {
+          width: 330px;
+          height: 450px;
+          background-color: gray;
+          margin: 20px;
+          border-radius: 15px;
+        }
+      }
+      .btn {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+          color: #2b2000; /* Matn rangi */
+          border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+          border-radius: 10px; /* Burchaklarni yumaloqlash */
+          padding: 15px 20px; /* Ichki masofa */
+          font-size: 18px; /* Matn o'lchami */
+          font-weight: bold; /* Matn qalinligi */
+          box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+          cursor: pointer;
+          outline: none;
+          margin: 15px 0;
+          background: linear-gradient(
+            85.95deg,
+            #fad167 0.32%,
+            #ffe68f 60.58%,
+            #ffe08f 120.85%
+          );
+          margin: 35px 0;
+
+          &:hover {
+            background-color: #f5d05a;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 447px) and (max-width: 769px) {
+  .Main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px 0 0 0;
+
+    .container {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+
+      .Main-section {
+        width: 100%;
+        height: auto;
+
+        .section-old {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          .text {
+            width: 100%;
+            height: auto;
+            margin: 15px 0;
+            text-align: center;
+
+            p {
+              color: $text-color;
+              font-family: monospace;
+              font-size: 20px;
+              font-weight: normal;
+            }
+
+            h1 {
+              color: $text-color;
+              font-size: 40px;
+              margin: 20px 0;
+            }
+          }
+
+          img {
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+          }
+        }
+
+        .section-end {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+
+          img {
+            width: 85%;
+            height: 350px;
+            margin: 0 auto;
+            object-fit: cover;
+            border-radius: 16px;
+          }
+
+          .text {
+            width: 90%;
+            height: auto;
+            text-align: start;
+            margin: 0 auto;
+
+            h3 {
+              color: $text-color;
+              font-family: monospace;
+              font-size: 32px;
+              font-weight: 900;
+            }
+
+            ol {
+              width: auto;
+
+              li {
+                font-size: 18px;
+                color: $text-color;
+                font-family: monospace;
+                margin: 15px 0;
+              }
+            }
+          }
+        }
+      }
+
+      .Main-section-vido {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .vido-section-chiled {
+          width: 92%;
+          height: auto;
+          margin: 25px auto;
+
+          .text {
+            width: 100%;
+            height: auto;
+            text-align: start;
+
+            h1 {
+              color: $text-color;
+              font-size: 25px;
+              text-transform: uppercase;
+
+              span {
+                font-size: 30px;
+                font-weight: 400;
+              }
+            }
+          }
+
+          .Video {
+            width: 100%;
+            height: 340px;
+            border-radius: 20px;
+            margin: 15px auto;
+          }
+        }
+      }
+    }
+    .main-container {
+      width: 100%;
+      height: 1000px;
+      background: $bg-color;
+      padding: 30px 0;
+
+      .parent-container {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+
+        .main-pdf {
+          width: 90%;
+          height: 250px;
+          background: white;
+          margin: 35px auto;
+          position: relative;
+          border-radius: 16px;
+
+          .text {
+            width: 55%;
+            height: auto;
+            text-align: start;
+            position: relative;
+            left: 50px;
+            top: 20%;
+
+            h1 {
+              color: $text-color;
+              font-size: 45px;
+            }
+
+            p {
+              color: $color-2;
+              font-family: monospace;
+              font-size: 20px;
+              margin: 10px 0;
+            }
+
+            a {
+              color: #7a7156;
+              display: flex;
+              align-items: center;
+              font-family: monospace;
+              font-size: 18px;
+              align-items: center;
+              gap: 10px;
+            }
+          }
+
+          .pdf {
+            width: 65px;
+            height: auto;
+            position: absolute;
+            right: 12%;
+            bottom: 2px;
+            z-index: 2;
+          }
+          .pdf-end {
+            width: 190px;
+            height: auto;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+          }
+        }
+
+        .main-parent {
+          width: 100%;
+          height: 250px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+
+          .text {
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+
+            p {
+              color: white;
+              font-family: monospace;
+              font-size: 25px;
+              font-weight: 600;
+            }
+            h1 {
+              color: $text-color;
+              font-size: 35px;
+              text-transform: uppercase;
+              margin: 10px 0;
+              font-weight: 900;
+            }
+            h4 {
+              font-size: 18px;
+              color: white;
+              font-family: monospace;
+              margin: 10px 0;
+            }
+
+            button {
+              color: #2b2000; /* Matn rangi */
+              border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+              border-radius: 10px; /* Burchaklarni yumaloqlash */
+              padding: 20px 60px; /* Ichki masofa */
+              font-size: 18px; /* Matn o'lchami */
+              font-weight: bold; /* Matn qalinligi */
+              box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+              cursor: pointer;
+              outline: none;
+              margin: 15px 0;
+              background: linear-gradient(
+                85.95deg,
+                #fad167 0.32%,
+                #ffe68f 60.58%,
+                #ffe08f 120.85%
+              );
+              margin: 35px auto;
+
+              &:hover {
+                background-color: #f5d05a;
+              }
+            }
+          }
+
+          .img {
+            width: 100%;
+            height: auto;
+
+            img {
+              width: 100%;
+              height: 300px;
+              object-fit: contain;
+            }
+          }
+        }
+      }
+    }
+
+    .section-parent {
+      width: 100%;
+      height: auto;
+
+      .text-section {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 30px 0;
+
+        h1 {
+          color: $text-color;
+          font-size: 55px;
+        }
+        h3 {
+          color: $text-color;
+          font-size: 30px;
+          font-family: monospace;
+          margin: 10px 0;
+        }
+      }
+
+      .boxses {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+
+        .box {
+          width: 330px;
+          height: 450px;
+          background-color: gray;
+          margin: 20px auto;
+          border-radius: 15px;
+        }
+      }
+      .btn {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+          color: #2b2000; /* Matn rangi */
+          border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+          border-radius: 10px; /* Burchaklarni yumaloqlash */
+          padding: 15px 20px; /* Ichki masofa */
+          font-size: 18px; /* Matn o'lchami */
+          font-weight: bold; /* Matn qalinligi */
+          box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+          cursor: pointer;
+          outline: none;
+          margin: 15px 0;
+          background: linear-gradient(
+            85.95deg,
+            #fad167 0.32%,
+            #ffe68f 60.58%,
+            #ffe08f 120.85%
+          );
+          margin: 35px 0;
+
+          &:hover {
+            background-color: #f5d05a;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  .Main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 150px 0 0 0;
+  
+    .container {
+      width: 95%;
       height: auto;
       margin: 0 auto;
   
@@ -353,15 +1042,9 @@ $bg-color: #edbfe3;
           display: flex;
           align-items: center;
           justify-content: space-between;
-          flex-wrap: wrap;
   
           .text {
-            width: 100%;
-            height: auto;
-            margin: 15px 0;
-            text-align: center;
-
-            
+            width: auto;
             p {
               color: $text-color;
               font-family: monospace;
@@ -371,16 +1054,13 @@ $bg-color: #edbfe3;
   
             h1 {
               color: $text-color;
-              font-size: 40px;
+              font-size: 45px;
               margin: 20px 0;
             }
           }
 
           img{
-            width: 90%;
-            height: auto;
-            margin: 0 auto;
-
+            width: 50%;
           }
 
         }
@@ -391,28 +1071,22 @@ $bg-color: #edbfe3;
           display: flex;
           justify-content: space-between;
           align-items: center;
-          flex-wrap: wrap;
   
           img {
-            width: 85%;
-            height: 250px;
-            margin: 0 auto;
+            width: 50%;
+            height: auto;
             object-fit: cover;
-            border-radius: 16px;
-
-
           }
   
           .text {
-            width: 90%;
+            width: auto;
             height: auto;
             text-align: start;
-            margin: 0 auto;
   
             h3 {
               color: $text-color;
               font-family: monospace;
-              font-size: 32px;
+              font-size: 28px;
               font-weight: 900;
             }
   
@@ -420,10 +1094,11 @@ $bg-color: #edbfe3;
               width: auto;
   
               li {
-                font-size: 18px;
+                font-size: 20px;
                 color: $text-color;
                 font-family: monospace;
-                margin: 15px 0;
+                margin: 5px 0;
+
               }
             }
           }
@@ -437,9 +1112,9 @@ $bg-color: #edbfe3;
         flex-wrap: wrap;
   
         .vido-section-chiled {
-          width: 92%;
+          width: 100%;
           height: auto;
-          margin: 25px auto;
+          margin: 35px 0;
   
           .text {
             width: 100%;
@@ -448,7 +1123,7 @@ $bg-color: #edbfe3;
   
             h1 {
               color: $text-color;
-              font-size: 25px;
+              font-size: 45px;
               text-transform: uppercase;
   
               span {
@@ -460,19 +1135,19 @@ $bg-color: #edbfe3;
   
           .Video {
             width: 100%;
-            height: 340px;
+            height: 450px;
             border-radius: 20px;
-            margin: 15px auto;
+            margin: 15px 0;
           }
         }
       }
-
     }
     .main-container {
       width: 100%;
-      height: 1000px;
+      height: auto;
       background: $bg-color;
-      padding: 30px 0;
+      padding: 50px 0;
+      margin:  0 0 50px;
   
       .parent-container {
         width: 100%;
@@ -480,15 +1155,16 @@ $bg-color: #edbfe3;
         margin: 0 auto;
   
         .main-pdf {
-          width: 90%;
+          width: 80%;
           height: 250px;
           background: white;
+          // box-shadow: 10px 10px 55px 25px rgb(244, 242, 242);
           margin: 35px auto;
           position: relative;
           border-radius: 16px;
   
           .text {
-            width: 55%;
+            width: 50%;
             height: auto;
             text-align: start;
             position: relative;
@@ -497,7 +1173,7 @@ $bg-color: #edbfe3;
   
             h1 {
               color: $text-color;
-              font-size: 45px;
+              font-size: 65px;
             }
   
             p {
@@ -519,15 +1195,15 @@ $bg-color: #edbfe3;
           }
   
           .pdf {
-            width: 65px;
+            width: 150px;
             height: auto;
             position: absolute;
-            right: 12%;
-            bottom: 2px;
+            right: 10%;
+            bottom: 1px;
             z-index: 2;
           }
           .pdf-end {
-            width: 190px;
+            width: 350px;
             height: auto;
             position: absolute;
             right: 0;
@@ -536,17 +1212,17 @@ $bg-color: #edbfe3;
         }
   
         .main-parent {
-          width: 100%;
+          width: 90%;
           height: 250px;
           display: flex;
           justify-content: space-between;
           align-items: center;
-          flex-wrap: wrap;
+          margin: 0 auto;
+          // flex-wrap: wrap;
   
           .text {
-            width: 90%;
+            width: 50%;
             height: auto;
-            margin: 0 auto;
   
             p {
               color: white;
@@ -556,17 +1232,14 @@ $bg-color: #edbfe3;
             }
             h1 {
               color: $text-color;
-              font-size: 35px;
+              font-size: 45px;
               text-transform: uppercase;
               margin: 10px 0;
-              font-weight: 900;
-
             }
             h4 {
               font-size: 18px;
               color: white;
               font-family: monospace;
-              margin: 10px 0;
             }
   
             button {
@@ -586,7 +1259,7 @@ $bg-color: #edbfe3;
                 #ffe68f 60.58%,
                 #ffe08f 120.85%
               );
-              margin: 35px auto;
+              margin: 35px 0;
   
               &:hover {
                 background-color: #f5d05a;
@@ -595,7 +1268,7 @@ $bg-color: #edbfe3;
           }
   
           .img {
-            width: auto;
+            width: 50%;
             height: auto;
   
             img {
@@ -620,7 +1293,7 @@ $bg-color: #edbfe3;
   
         h1 {
           color: $text-color;
-          font-size: 55px;
+          font-size: 75px;
         }
         h3 {
           color: $text-color;
@@ -631,38 +1304,34 @@ $bg-color: #edbfe3;
       }
   
       .boxses {
-        width: 100%;
+        width: 95%;
         height: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
-        flex-wrap: wrap;
-
   
         .box {
-          width: 330px;
+          width: 350px;
           height: 450px;
           background-color: gray;
           margin: 20px;
           border-radius: 15px;
-           
         }
       }
-      .btn{
+      .btn {
         width: 100%;
         height: 180px;
         display: flex;
         justify-content: center;
         align-items: center;
   
-  
         button {
           color: #2b2000; /* Matn rangi */
           border: 2px solid #d9b44b; /* Border rangi va o'lchami */
           border-radius: 10px; /* Burchaklarni yumaloqlash */
-          padding: 15px 20px; /* Ichki masofa */
+          padding: 20px 60px; /* Ichki masofa */
           font-size: 18px; /* Matn o'lchami */
           font-weight: bold; /* Matn qalinligi */
           box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
@@ -681,10 +1350,342 @@ $bg-color: #edbfe3;
             background-color: #f5d05a;
           }
         }
-  
-  
-  
       }
     }
   }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+  .Main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 150px 0 0 0;
+  
+    .container {
+      width: 95%;
+      height: auto;
+      margin: 0 auto;
+  
+      .Main-section {
+        width: 100%;
+        height: auto;
+  
+        .section-old {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+  
+          .text {
+            width: auto;
+            p {
+              color: $text-color;
+              font-family: monospace;
+              font-size: 20px;
+              font-weight: normal;
+            }
+  
+            h1 {
+              color: $text-color;
+              font-size: 45px;
+              margin: 20px 0;
+            }
+          }
+
+          img{
+            width: 50%;
+          }
+
+        }
+  
+        .section-end {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+  
+          img {
+            width: 50%;
+            height: auto;
+            object-fit: cover;
+          }
+  
+          .text {
+            width: auto;
+            height: auto;
+            text-align: start;
+  
+            h3 {
+              color: $text-color;
+              font-family: monospace;
+              font-size: 28px;
+              font-weight: 900;
+            }
+  
+            ol {
+              width: auto;
+  
+              li {
+                font-size: 20px;
+                color: $text-color;
+                font-family: monospace;
+                margin: 5px 0;
+
+              }
+            }
+          }
+        }
+      }
+  
+      .Main-section-vido {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+  
+        .vido-section-chiled {
+          width: 100%;
+          height: auto;
+          margin: 35px 0;
+  
+          .text {
+            width: 100%;
+            height: auto;
+            text-align: start;
+  
+            h1 {
+              color: $text-color;
+              font-size: 45px;
+              text-transform: uppercase;
+  
+              span {
+                font-size: 30px;
+                font-weight: 400;
+              }
+            }
+          }
+  
+          .Video {
+            width: 100%;
+            height: 450px;
+            border-radius: 20px;
+            margin: 15px 0;
+          }
+        }
+      }
+    }
+    .main-container {
+      width: 100%;
+      height: auto;
+      background: $bg-color;
+      padding: 50px 0;
+      margin:  0 0 50px;
+  
+      .parent-container {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+  
+        .main-pdf {
+          width: 80%;
+          height: 250px;
+          background: white;
+          // box-shadow: 10px 10px 55px 25px rgb(244, 242, 242);
+          margin: 35px auto;
+          position: relative;
+          border-radius: 16px;
+  
+          .text {
+            width: 50%;
+            height: auto;
+            text-align: start;
+            position: relative;
+            left: 50px;
+            top: 20%;
+  
+            h1 {
+              color: $text-color;
+              font-size: 65px;
+            }
+  
+            p {
+              color: $color-2;
+              font-family: monospace;
+              font-size: 20px;
+              margin: 10px 0;
+            }
+  
+            a {
+              color: #7a7156;
+              display: flex;
+              align-items: center;
+              font-family: monospace;
+              font-size: 18px;
+              align-items: center;
+              gap: 10px;
+            }
+          }
+  
+          .pdf {
+            width: 150px;
+            height: auto;
+            position: absolute;
+            right: 10%;
+            bottom: 1px;
+            z-index: 2;
+          }
+          .pdf-end {
+            width: 350px;
+            height: auto;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+          }
+        }
+  
+        .main-parent {
+          width: 90%;
+          height: 250px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 0 auto;
+          // flex-wrap: wrap;
+  
+          .text {
+            width: 50%;
+            height: auto;
+  
+            p {
+              color: white;
+              font-family: monospace;
+              font-size: 25px;
+              font-weight: 600;
+            }
+            h1 {
+              color: $text-color;
+              font-size: 45px;
+              text-transform: uppercase;
+              margin: 10px 0;
+            }
+            h4 {
+              font-size: 18px;
+              color: white;
+              font-family: monospace;
+            }
+  
+            button {
+              color: #2b2000; /* Matn rangi */
+              border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+              border-radius: 10px; /* Burchaklarni yumaloqlash */
+              padding: 20px 60px; /* Ichki masofa */
+              font-size: 18px; /* Matn o'lchami */
+              font-weight: bold; /* Matn qalinligi */
+              box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+              cursor: pointer;
+              outline: none;
+              margin: 15px 0;
+              background: linear-gradient(
+                85.95deg,
+                #fad167 0.32%,
+                #ffe68f 60.58%,
+                #ffe08f 120.85%
+              );
+              margin: 35px 0;
+  
+              &:hover {
+                background-color: #f5d05a;
+              }
+            }
+          }
+  
+          .img {
+            width: 50%;
+            height: auto;
+  
+            img {
+              width: 100%;
+              height: auto;
+              object-fit: contain;
+            }
+          }
+        }
+      }
+    }
+  
+    .section-parent {
+      width: 100%;
+      height: auto;
+  
+      .text-section {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 30px 0;
+  
+        h1 {
+          color: $text-color;
+          font-size: 75px;
+        }
+        h3 {
+          color: $text-color;
+          font-size: 30px;
+          font-family: monospace;
+          margin: 10px 0;
+        }
+      }
+  
+      .boxses {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+  
+        .box {
+          width: 350px;
+          height: 450px;
+          background-color: gray;
+          margin: 20px;
+          border-radius: 15px;
+        }
+      }
+      .btn {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        button {
+          color: #2b2000; /* Matn rangi */
+          border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+          border-radius: 10px; /* Burchaklarni yumaloqlash */
+          padding: 20px 60px; /* Ichki masofa */
+          font-size: 18px; /* Matn o'lchami */
+          font-weight: bold; /* Matn qalinligi */
+          box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+          cursor: pointer;
+          outline: none;
+          margin: 15px 0;
+          background: linear-gradient(
+            85.95deg,
+            #fad167 0.32%,
+            #ffe68f 60.58%,
+            #ffe08f 120.85%
+          );
+          margin: 35px 0;
+  
+          &:hover {
+            background-color: #f5d05a;
+          }
+        }
+      }
+    }
+  } 
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
 import "./Main.scss";
+import { AiOutlineDownload } from "react-icons/ai";
 
 const Main = () => {
   return (
@@ -122,6 +123,73 @@ const Main = () => {
           </div>
         </div>
       </div>
+
+      <div className="main-container">
+        <div className="parent-container">
+          <div className="main-pdf">
+            <div className="text">
+              <h1>Рецепт</h1>
+              <p>для скачивания</p>
+              <a href="#">
+                {" "}
+                <span>
+                  <AiOutlineDownload />
+                </span>{" "}
+                Скачать рецепт
+              </a>
+            </div>
+
+            <img src="Greeting-img/Mask group (1).png" alt=""  className="pdf"/>
+            <img src="Greeting-img/Mask group.png" alt="" className="pdf-end"/>
+          </div>
+
+          <div className="main-parent">
+            <div className="text">
+              <p>Дарим промокод</p>
+
+              <h1>на скидку!</h1>
+
+              <h4>
+                По промокоду Present для вас доступна скидка 10% на следующую
+                покупку рецепту
+              </h4>
+
+              <button>Выбрать рецепт</button>
+            </div>
+
+            <div className="img">
+              <img src="Greeting-img/Rectangle 428.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+       
+       <div className="section-parent">
+
+        <div className="text-section">
+          <h1>Вам понравятся</h1>
+          <h3> эти рецепты:</h3>
+        </div>
+
+         
+         <div className="boxses">
+                       
+                       <div className="box"></div>
+                       <div className="box"></div>
+                       <div className="box"></div>
+                       <div className="box"></div>
+                       <div className="box"></div>
+                       <div className="box"></div>
+                       <div className="box"></div>
+                       <div className="box"></div>
+                       <div className="box"></div>
+
+         </div>
+
+       </div>
+
     </div>
   );
 };

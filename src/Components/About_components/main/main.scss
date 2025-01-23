@@ -2,6 +2,7 @@ $text-color: #7a7156;
 $color: #ddb2d4;
 $color-2: #a19e93;
 $bg-color: #edbfe3;
+
 %div-style{
   display: flex;
   justify-content: center;
@@ -434,6 +435,8 @@ $bg-color: #edbfe3;
         .text-right{
             width: 90%;
             height: auto;
+            margin: 0 auto;
+
 
             h3{
               font-size: 28px;
@@ -488,13 +491,13 @@ $bg-color: #edbfe3;
         margin: 40px 0;
 
         h1{
-          font-size: 85px;
+          font-size: 65px;
           color: white;
 
         }
         h3{
           color: white;
-          font-size: 35px;
+          font-size: 25px;
           font-weight: 700;
           font-family: monospace;
         }
@@ -506,8 +509,6 @@ $bg-color: #edbfe3;
     .main-reject{
       width: 100%;
       height: auto;
-      // background: white;
-      background: rgba(255, 255, 255, 1);
       padding: 5px 0;
   
       .container-reject{
@@ -585,13 +586,1080 @@ $bg-color: #edbfe3;
             }
             .reject-img{
               width: 90%;
-              height: 300px;
+              height: 200px;
               position: relative;
               overflow: hidden;
               margin: 0 auto;
-              
+
               .img-old{
+                width: 100px;
+                position: absolute;
+                bottom: 0;
+                z-index: 2;
+                left: 15%;
+
+              }
+              h3{
+                color: #7a7156;
+                font-family: monospace;
+                font-size: 32px;
+                position: absolute;
+                top: 25%;
+                left: 5%;
+                z-index: 3;
+
+              }
+              .img-end{
                 width: 150px;
+                position: absolute;
+                z-index: 2;
+                right: 0;
+                top: 30px;
+
+              }
+              .bg-img{
+                position: absolute;
+                width: 100%;
+                z-index: 1;
+                bottom: 0;
+                left: 0;
+              }
+               
+
+
+            }
+
+            .reject-big-img{
+              width: 95%;
+              height: 200px;
+              border-radius: 16px;
+              position: relative;
+              overflow: hidden;
+              border-radius: 25px;
+              margin-top: 50px;
+              box-shadow: 10px 19px 30px 10px rgb(226, 226, 226);
+              margin: 20px auto 0 auto;
+
+
+              
+              .old{
+                width: 110px;
+                height: auto;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                z-index: 2;
+
+              }
+
+              .end{
+                width: 150px;
+                height: auto;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                z-index: 2;
+
+              }
+
+              h1{
+                color: $text-color;
+                font-size: 28px;
+                font-family: monospace;
+                position: absolute;
+                z-index: 3;
+                top: 20%;
+                text-align: center;
+                left: 15%;
+               
+ 
+
+              }
+
+              .top-img-mini{
+                width: 100px;
+                height: auto;
+                position: absolute;
+                top: 0;
+              right: 15%;
+              
+              }
+
+              .bg-img{
+                width: 100%;
+                height: auto;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+              }
+
+
+
+            }
+
+            .text-reject{
+              width: 100%;
+              color: $text-color;
+              font-family: monospace;
+              font-size: 18px;
+              margin: 30px 0;
+              text-align: center;
+
+            }
+
+          }
+  
+      }
+  
+  }
+
+
+
+}
+  
+}
+@media screen and (min-width: 447px) and (max-width: 769px) {
+  .Main-container{
+    width: 100%;
+    height: auto;
+    background: $bg-color;
+    padding: 50px 0;
+
+    .container{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding: 25px  15px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+
+        .text-left{
+            width:  90%;
+            height: auto;
+
+            h3{
+              font-size: 28px;
+              color: $text-color;
+              line-height: 40px;
+
+              span{
+                font-weight: 900;
+                font-family: monospace;
+
+              }
+            }
+
+
+            button {
+                color: #2b2000; /* Matn rangi */
+                border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+                border-radius: 10px; /* Burchaklarni yumaloqlash */
+                padding: 15px 20px; /* Ichki masofa */
+                font-size: 18px; /* Matn o'lchami */
+                font-weight: bold; /* Matn qalinligi */
+                box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+                cursor: pointer;
+                outline: none;
+                background: linear-gradient(
+                  85.95deg,
+                  #fad167 0.32%,
+                  #ffe68f 60.58%,
+                  #ffe08f 120.85%
+                );
+                margin: 35px 0;
+        
+                &:hover {
+                  background-color: #f5d05a;
+                }
+              }
+        }
+
+        .imegs{
+            width: 70%;
+            height: auto;
+            margin: 10px 0;
+
+            img{
+                width: 100%;
+
+            }
+        }
+
+        .text-right{
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+
+
+            h3{
+              font-size: 28px;
+              color: $text-color;
+              line-height: 40px;
+
+              span{
+                font-weight: 900;
+                font-family: monospace;
+
+              }
+            }
+
+
+            button {
+                color: #2b2000; /* Matn rangi */
+                border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+                border-radius: 10px; /* Burchaklarni yumaloqlash */
+                padding: 15px 20px; /* Ichki masofa */
+                font-size: 18px; /* Matn o'lchami */
+                font-weight: bold; /* Matn qalinligi */
+                box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+                cursor: pointer;
+                outline: none;
+                background: linear-gradient(
+                  85.95deg,
+                  #fad167 0.32%,
+                  #ffe68f 60.58%,
+                  #ffe08f 120.85%
+                );
+                margin: 35px 0;
+        
+                &:hover {
+                  background-color: #f5d05a;
+                }
+              }
+
+        }
+         
+
+    }
+    
+    .Main-swiper{
+      width: 100%;
+      height: auto;
+      margin: 0 10px;
+
+      .swiper-text{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 40px 0;
+
+        h1{
+          font-size: 65px;
+          color: white;
+
+        }
+        h3{
+          color: white;
+          font-size: 25px;
+          font-weight: 700;
+          font-family: monospace;
+        }
+
+      }
+
+    }
+
+    .main-reject{
+      width: 100%;
+      height: auto;
+      padding: 5px 0;
+  
+      .container-reject{
+          width: 100%;
+          height: auto;
+          margin: 0 auto;
+          flex-wrap: wrap;
+
+          
+          .text-top{
+            width: 100%;
+            height: auto;
+            text-align: center;
+
+
+            h3{
+              color: $text-color;
+              font-family: monospace;
+              font-size: 25px;
+              font-weight: bold;
+
+            }
+
+            h1{
+              color: $text-color;
+              // font-family: monospace;
+              font-size: 80px;
+
+            }
+
+          }
+          
+          .reject-parent{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .reject-text{
+              width: 100%;
+              height: auto;
+
+              .box{
+                width: auto;
+                display: flex;
+                gap: 25px;
+                margin: 25px 0;
+
+                .icon{
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 12px;
+                  background: $bg-color;
+                  color: $text-color;
+                  position: relative;
+                  font-size: 25px;
+
+
+                }
+
+
+                p{
+                  width: 300px;
+                  color: rgba(122, 113, 86, 1);
+                  font-family: monospace;
+                font-size: 17px;
+
+
+                }
+              }
+
+            }
+            .reject-img{
+              width: 90%;
+              height: 200px;
+              position: relative;
+              overflow: hidden;
+              margin: 0 auto;
+
+              .img-old{
+                width: 100px;
+                position: absolute;
+                bottom: 0;
+                z-index: 2;
+                left: 15%;
+
+              }
+              h3{
+                color: #7a7156;
+                font-family: monospace;
+                font-size: 32px;
+                position: absolute;
+                top: 25%;
+                left: 5%;
+                z-index: 3;
+
+              }
+              .img-end{
+                width: 150px;
+                position: absolute;
+                z-index: 2;
+                right: 0;
+                top: 30px;
+
+              }
+              .bg-img{
+                position: absolute;
+                width: 100%;
+                z-index: 1;
+                bottom: 0;
+                left: 0;
+              }
+               
+
+
+            }
+
+            .reject-big-img{
+              width: 95%;
+              height: 200px;
+              border-radius: 16px;
+              position: relative;
+              overflow: hidden;
+              border-radius: 25px;
+              margin-top: 50px;
+              box-shadow: 10px 19px 30px 10px rgb(226, 226, 226);
+              margin: 20px auto 0 auto;
+
+
+              
+              .old{
+                width: 110px;
+                height: auto;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                z-index: 2;
+
+              }
+
+              .end{
+                width: 150px;
+                height: auto;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                z-index: 2;
+
+              }
+
+              h1{
+                color: $text-color;
+                font-size: 28px;
+                font-family: monospace;
+                position: absolute;
+                z-index: 3;
+                top: 20%;
+                text-align: center;
+                left: 15%;
+               
+ 
+
+              }
+
+              .top-img-mini{
+                width: 100px;
+                height: auto;
+                position: absolute;
+                top: 0;
+              right: 15%;
+              
+              }
+
+              .bg-img{
+                width: 100%;
+                height: auto;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+              }
+
+
+
+            }
+
+            .text-reject{
+              width: 100%;
+              color: $text-color;
+              font-family: monospace;
+              font-size: 18px;
+              margin: 30px 0;
+              text-align: center;
+
+            }
+
+          }
+  
+      }
+  
+  }
+
+
+
+}
+}
+@media screen and (min-width: 769px) and (max-width: 960px){
+  .Main-container{
+    width: 100%;
+    height: auto;
+    background: $bg-color;
+    padding: 50px 0;
+
+    .container{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding: 25px  15px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+
+        .text-left{
+            width:  90%;
+            height: auto;
+
+            h3{
+              font-size: 28px;
+              color: $text-color;
+              line-height: 40px;
+
+              span{
+                font-weight: 900;
+                font-family: monospace;
+
+              }
+            }
+
+
+            button {
+                color: #2b2000; /* Matn rangi */
+                border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+                border-radius: 10px; /* Burchaklarni yumaloqlash */
+                padding: 15px 20px; /* Ichki masofa */
+                font-size: 18px; /* Matn o'lchami */
+                font-weight: bold; /* Matn qalinligi */
+                box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+                cursor: pointer;
+                outline: none;
+                background: linear-gradient(
+                  85.95deg,
+                  #fad167 0.32%,
+                  #ffe68f 60.58%,
+                  #ffe08f 120.85%
+                );
+                margin: 35px 0;
+        
+                &:hover {
+                  background-color: #f5d05a;
+                }
+              }
+        }
+
+        .imegs{
+            width: 70%;
+            height: auto;
+            margin: 10px 0;
+
+            img{
+                width: 100%;
+
+            }
+        }
+
+        .text-right{
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+
+
+            h3{
+              font-size: 28px;
+              color: $text-color;
+              line-height: 40px;
+
+              span{
+                font-weight: 900;
+                font-family: monospace;
+
+              }
+            }
+
+
+            button {
+                color: #2b2000; /* Matn rangi */
+                border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+                border-radius: 10px; /* Burchaklarni yumaloqlash */
+                padding: 15px 20px; /* Ichki masofa */
+                font-size: 18px; /* Matn o'lchami */
+                font-weight: bold; /* Matn qalinligi */
+                box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+                cursor: pointer;
+                outline: none;
+                background: linear-gradient(
+                  85.95deg,
+                  #fad167 0.32%,
+                  #ffe68f 60.58%,
+                  #ffe08f 120.85%
+                );
+                margin: 35px 0;
+        
+                &:hover {
+                  background-color: #f5d05a;
+                }
+              }
+
+        }
+         
+
+    }
+    
+    .Main-swiper{
+      width: 100%;
+      height: auto;
+      margin: 0 10px;
+
+      .swiper-text{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 40px 0;
+
+        h1{
+          font-size: 65px;
+          color: white;
+
+        }
+        h3{
+          color: white;
+          font-size: 25px;
+          font-weight: 700;
+          font-family: monospace;
+        }
+
+      }
+
+    }
+
+    .main-reject{
+      width: 100%;
+      height: auto;
+      padding: 5px 0;
+  
+      .container-reject{
+          width: 100%;
+          height: auto;
+          margin: 0 auto;
+          flex-wrap: wrap;
+
+          
+          .text-top{
+            width: 100%;
+            height: auto;
+            text-align: center;
+
+
+            h3{
+              color: $text-color;
+              font-family: monospace;
+              font-size: 25px;
+              font-weight: bold;
+
+            }
+
+            h1{
+              color: $text-color;
+              // font-family: monospace;
+              font-size: 80px;
+
+            }
+
+          }
+          
+          .reject-parent{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .reject-text{
+              width: 100%;
+              height: auto;
+
+              .box{
+                width: auto;
+                display: flex;
+                gap: 25px;
+                margin: 25px 0;
+
+                .icon{
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 12px;
+                  background: $bg-color;
+                  color: $text-color;
+                  position: relative;
+                  font-size: 25px;
+
+
+                }
+
+
+                p{
+                  width: 300px;
+                  color: rgba(122, 113, 86, 1);
+                  font-family: monospace;
+                font-size: 17px;
+
+
+                }
+              }
+
+            }
+            .reject-img{
+              width: 90%;
+              height: 200px;
+              position: relative;
+              overflow: hidden;
+              margin: 0 auto;
+
+              .img-old{
+                width: 100px;
+                position: absolute;
+                bottom: 0;
+                z-index: 2;
+                left: 15%;
+
+              }
+              h3{
+                color: #7a7156;
+                font-family: monospace;
+                font-size: 32px;
+                position: absolute;
+                top: 25%;
+                left: 5%;
+                z-index: 3;
+
+              }
+              .img-end{
+                width: 150px;
+                position: absolute;
+                z-index: 2;
+                right: 0;
+                top: 30px;
+
+              }
+              .bg-img{
+                position: absolute;
+                width: 100%;
+                z-index: 1;
+                bottom: 0;
+                left: 0;
+              }
+               
+
+
+            }
+
+            .reject-big-img{
+              width: 95%;
+              height: 200px;
+              border-radius: 16px;
+              position: relative;
+              overflow: hidden;
+              border-radius: 25px;
+              margin-top: 50px;
+              box-shadow: 10px 19px 30px 10px rgb(226, 226, 226);
+              margin: 20px auto 0 auto;
+
+
+              
+              .old{
+                width: 110px;
+                height: auto;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                z-index: 2;
+
+              }
+
+              .end{
+                width: 150px;
+                height: auto;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                z-index: 2;
+
+              }
+
+              h1{
+                color: $text-color;
+                font-size: 28px;
+                font-family: monospace;
+                position: absolute;
+                z-index: 3;
+                top: 20%;
+                text-align: center;
+                left: 15%;
+               
+ 
+
+              }
+
+              .top-img-mini{
+                width: 100px;
+                height: auto;
+                position: absolute;
+                top: 0;
+              right: 15%;
+              
+              }
+
+              .bg-img{
+                width: 100%;
+                height: auto;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+              }
+
+
+
+            }
+
+            .text-reject{
+              width: 100%;
+              color: $text-color;
+              font-family: monospace;
+              font-size: 18px;
+              margin: 30px 0;
+              text-align: center;
+
+            }
+
+          }
+  
+      }
+  }
+}
+}
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+  .Main-container{
+    width: 100%;
+    height: auto;
+    background: $bg-color;
+    padding: 50px 0;
+
+    .container{
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 25px;
+        overflow: hidden;
+
+
+        .text-left{
+            width:  35%;
+            height: auto;
+
+            h3{
+              font-size: 28px;
+              color: $text-color;
+              line-height: 40px;
+
+              span{
+                font-weight: 900;
+                font-family: monospace;
+
+              }
+            }
+
+
+            button {
+                color: #2b2000; /* Matn rangi */
+                border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+                border-radius: 10px; /* Burchaklarni yumaloqlash */
+                padding: 15px 20px; /* Ichki masofa */
+                font-size: 18px; /* Matn o'lchami */
+                font-weight: bold; /* Matn qalinligi */
+                box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+                cursor: pointer;
+                outline: none;
+                background: linear-gradient(
+                  85.95deg,
+                  #fad167 0.32%,
+                  #ffe68f 60.58%,
+                  #ffe08f 120.85%
+                );
+                margin: 35px 0;
+        
+                &:hover {
+                  background-color: #f5d05a;
+                }
+              }
+        }
+
+        .imegs{
+            width: 30%;
+            height: auto;
+
+            img{
+                width: 100%;
+
+            }
+        }
+
+        .text-right{
+            width:  35%;
+            height: auto;
+
+            h3{
+              font-size: 28px;
+              color: $text-color;
+              line-height: 40px;
+
+              span{
+                font-weight: 900;
+                font-family: monospace;
+
+              }
+            }
+
+
+            button {
+                color: #2b2000; /* Matn rangi */
+                border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+                border-radius: 10px; /* Burchaklarni yumaloqlash */
+                padding: 15px 20px; /* Ichki masofa */
+                font-size: 18px; /* Matn o'lchami */
+                font-weight: bold; /* Matn qalinligi */
+                box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+                cursor: pointer;
+                outline: none;
+                background: linear-gradient(
+                  85.95deg,
+                  #fad167 0.32%,
+                  #ffe68f 60.58%,
+                  #ffe08f 120.85%
+                );
+                margin: 35px 0;
+        
+                &:hover {
+                  background-color: #f5d05a;
+                }
+              }
+
+        }
+         
+
+    }
+    
+    .Main-swiper{
+      width: 100%;
+      height: auto;
+
+      .swiper-text{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 70px 0;
+
+        h1{
+          font-size: 85px;
+          color: white;
+
+        }
+        h3{
+          color: white;
+          font-size: 35px;
+          font-weight: 700;
+          font-family: monospace;
+        }
+
+      }
+
+    }
+
+    .main-reject{
+      width: 100%;
+      height: 870px;
+      background: rgba(255, 255, 255, 1);
+      margin: 50px 0 0 0 ;
+      padding: 55px 0;
+  
+      .container-reject{
+          width: 100%;
+          height: auto;
+          margin: 0 auto;
+
+          .text-top{
+            width: 100%;
+            height: auto;
+            text-align: center;
+
+
+            h3{
+              color: $text-color;
+              font-family: monospace;
+              font-size: 25px;
+              font-weight: bold;
+
+            }
+
+            h1{
+              color: $text-color;
+              // font-family: monospace;
+              font-size: 80px;
+
+            }
+
+          }
+          
+          .reject-parent{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .reject-text{
+              width: 400px;
+              height: auto;
+
+              .box{
+                width: auto;
+                display: flex;
+                gap: 25px;
+                margin: 25px 0;
+
+                .icon{
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 12px;
+                  background: $bg-color;
+                  color: $text-color;
+                  position: relative;
+                  font-size: 25px;
+
+
+                }
+
+
+                p{
+                  width: 300px;
+                  color: rgba(122, 113, 86, 1);
+                  font-family: monospace;
+                font-size: 17px;
+
+
+                }
+              }
+
+            }
+            .reject-img{
+              width: 450px;
+              height: 300px;
+              position: relative;
+              overflow: hidden;
+
+              .img-old{
+                width: 200px;
                 position: absolute;
                 bottom: 0;
                 z-index: 2;
@@ -712,9 +1780,5 @@ $bg-color: #edbfe3;
 
 
 
-}
-  
-}
-@media screen and (min-width: 447px) and (max-width: 769px) {
-  
+}  
 }

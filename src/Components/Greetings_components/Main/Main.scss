@@ -7,7 +7,7 @@ $bg-color: #edbfe3;
   width: 100%;
   height: auto;
   position: relative;
-  padding: 150px 0;
+  padding: 150px 0 0 0;
 
   .container {
     width: 1200px;
@@ -80,53 +80,219 @@ $bg-color: #edbfe3;
       }
     }
 
-    .Main-section-vido{
+    .Main-section-vido {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+
+      .vido-section-chiled {
         width: 100%;
         height: auto;
-        display: flex;
-        flex-wrap: wrap;
+        margin: 35px 0;
 
-        .vido-section-chiled{
-            width: 100%;
-            height: auto;
-            margin: 35px 0;
+        .text {
+          width: 100%;
+          height: auto;
+          text-align: start;
 
-          
-            .text{
-                width: 100%;
-                height: auto;
-                text-align: start;
-                
-                h1{
-                    color: $text-color;
-                    font-size: 45px;
-                    text-transform: uppercase;
+          h1 {
+            color: $text-color;
+            font-size: 45px;
+            text-transform: uppercase;
 
-
-
-                    span{
-                        font-size: 30px;
-                        font-weight: 400;
-                        
-                    }
-
-                     
-
-                }
-
+            span {
+              font-size: 30px;
+              font-weight: 400;
             }
-
-            .Video{
-                width: 100%;
-                height: 450px;
-                border-radius: 20px;
-                margin: 15px 0;
-
-            }
-
+          }
         }
 
+        .Video {
+          width: 100%;
+          height: 450px;
+          border-radius: 20px;
+          margin: 15px 0;
+        }
+      }
+    }
+  }
+  .main-container {
+    width: 100%;
+    height: 670px;
+    background: $bg-color;
+    padding: 30px 0;
+
+    .parent-container {
+      width: 1200px;
+      height: auto;
+      margin: 0 auto;
+
+      .main-pdf {
+        width: 900px;
+        height: 250px;
+        background: white;
+        // box-shadow: 10px 10px 55px 25px rgb(244, 242, 242);
+        margin: 35px auto;
+        position: relative;
+        border-radius: 16px;
+
+        .text {
+          width: 50%;
+          height: auto;
+          text-align: start;
+          position: relative;
+          left: 50px;
+          top: 20%;
+
+          h1 {
+            color: $text-color;
+            font-size: 65px;
+          }
+
+          p {
+            color: $color-2;
+            font-family: monospace;
+            font-size: 20px;
+            margin: 10px 0;
+          }
+
+          a {
+            color: #7a7156;
+            display: flex;
+            align-items: center;
+            font-family: monospace;
+            font-size: 18px;
+            align-items: center;
+            gap: 10px;
+          }
+        }
+
+        .pdf {
+          width: 150px;
+          height: auto;
+          position: absolute;
+          right: 10%;
+          bottom: 1px;
+          z-index: 2;
+        }
+        .pdf-end {
+          width: 350px;
+          height: auto;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+        }
+      }
+
+      .main-parent {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .text {
+          width: 450px;
+          height: auto;
+
+          p {
+            color: white;
+            font-family: monospace;
+            font-size: 25px;
+            font-weight: 600;
+          }
+          h1 {
+            color: $text-color;
+            font-size: 55px;
+            text-transform: uppercase;
+          }
+          h4 {
+            font-size: 18px;
+            color: white;
+            font-family: monospace;
+            margin: 10px 0;
+          }
+
+          button {
+            color: #2b2000; /* Matn rangi */
+            border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+            border-radius: 10px; /* Burchaklarni yumaloqlash */
+            padding: 20px 60px; /* Ichki masofa */
+            font-size: 18px; /* Matn o'lchami */
+            font-weight: bold; /* Matn qalinligi */
+            box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+            cursor: pointer;
+            outline: none;
+            margin: 15px 0;
+            background: linear-gradient(
+              85.95deg,
+              #fad167 0.32%,
+              #ffe68f 60.58%,
+              #ffe08f 120.85%
+            );
+            margin: 35px 0;
+
+            &:hover {
+              background-color: #f5d05a;
+            }
+          }
+        }
+
+        .img {
+          width: auto;
+          height: auto;
+
+          img {
+            width: 420px;
+            height: auto;
+            object-fit: contain;
+          }
+        }
+      }
     }
   }
 
+  .section-parent {
+    width: 100%;
+    height: auto;
+
+    .text-section {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      margin: 30px 0;
+
+      h1 {
+        color: $text-color;
+        font-size: 75px;
+      }
+      h3 {
+        color: $text-color;
+        font-size: 30px;
+        font-family: monospace;
+        margin: 10px 0;
+      }
+    }
+
+    .boxses {
+      width: 1200px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+
+      .box {
+        width: 350px;
+        height: 450px;
+        background-color: gray;
+        margin: 20px;
+        border-radius: 15px;
+         
+      }
+    }
+  }
 }

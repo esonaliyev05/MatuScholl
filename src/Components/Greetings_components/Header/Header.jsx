@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.scss";
+import Aos from "aos";
 
 const Header = () => {
+  useEffect(() => {
+    Aos.init({ once: false });
+    Aos.refresh(); // Har safar yangilash
+  }, []);
   return (
     <div className="header">
       <div className="container">
-        <div className="header-text">
+        <div className="header-text" data-aos="zoom-in-right">
           <h1>
             Приветствую <br /> Вас!
           </h1>
@@ -17,8 +22,8 @@ const Header = () => {
           <button>Каталог уроков</button>
         </div>
 
-        <div className="header-img">
-          <img src="Greetings/IMG_7557 копия 3 2 (1).png" alt="" />
+        <div className="header-img" >
+          <img src="Greetings/IMG_7557 копия 3 2 (1).png" alt="" data-aos="zoom-out-up" />
         </div>
 
         

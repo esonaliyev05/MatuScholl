@@ -331,3 +331,360 @@ $bg-color: #edbfe3;
     }
   }
 }
+@media screen and (max-width: 447px) {
+  .Main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px 0 0 0;
+  
+    .container {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+  
+      .Main-section {
+        width: 100%;
+        height: auto;
+  
+        .section-old {
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+  
+          .text {
+            width: 100%;
+            height: auto;
+            margin: 15px 0;
+            text-align: center;
+
+            
+            p {
+              color: $text-color;
+              font-family: monospace;
+              font-size: 20px;
+              font-weight: normal;
+            }
+  
+            h1 {
+              color: $text-color;
+              font-size: 40px;
+              margin: 20px 0;
+            }
+          }
+
+          img{
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+
+          }
+
+        }
+  
+        .section-end {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+  
+          img {
+            width: 85%;
+            height: 250px;
+            margin: 0 auto;
+            object-fit: cover;
+            border-radius: 16px;
+
+
+          }
+  
+          .text {
+            width: 90%;
+            height: auto;
+            text-align: start;
+            margin: 0 auto;
+  
+            h3 {
+              color: $text-color;
+              font-family: monospace;
+              font-size: 32px;
+              font-weight: 900;
+            }
+  
+            ol {
+              width: auto;
+  
+              li {
+                font-size: 18px;
+                color: $text-color;
+                font-family: monospace;
+                margin: 15px 0;
+              }
+            }
+          }
+        }
+      }
+  
+      .Main-section-vido {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+  
+        .vido-section-chiled {
+          width: 92%;
+          height: auto;
+          margin: 25px auto;
+  
+          .text {
+            width: 100%;
+            height: auto;
+            text-align: start;
+  
+            h1 {
+              color: $text-color;
+              font-size: 25px;
+              text-transform: uppercase;
+  
+              span {
+                font-size: 30px;
+                font-weight: 400;
+              }
+            }
+          }
+  
+          .Video {
+            width: 100%;
+            height: 340px;
+            border-radius: 20px;
+            margin: 15px auto;
+          }
+        }
+      }
+
+    }
+    .main-container {
+      width: 100%;
+      height: 1000px;
+      background: $bg-color;
+      padding: 30px 0;
+  
+      .parent-container {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+  
+        .main-pdf {
+          width: 90%;
+          height: 250px;
+          background: white;
+          margin: 35px auto;
+          position: relative;
+          border-radius: 16px;
+  
+          .text {
+            width: 55%;
+            height: auto;
+            text-align: start;
+            position: relative;
+            left: 50px;
+            top: 20%;
+  
+            h1 {
+              color: $text-color;
+              font-size: 45px;
+            }
+  
+            p {
+              color: $color-2;
+              font-family: monospace;
+              font-size: 20px;
+              margin: 10px 0;
+            }
+  
+            a {
+              color: #7a7156;
+              display: flex;
+              align-items: center;
+              font-family: monospace;
+              font-size: 18px;
+              align-items: center;
+              gap: 10px;
+            }
+          }
+  
+          .pdf {
+            width: 65px;
+            height: auto;
+            position: absolute;
+            right: 12%;
+            bottom: 2px;
+            z-index: 2;
+          }
+          .pdf-end {
+            width: 190px;
+            height: auto;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+          }
+        }
+  
+        .main-parent {
+          width: 100%;
+          height: 250px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+  
+          .text {
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+  
+            p {
+              color: white;
+              font-family: monospace;
+              font-size: 25px;
+              font-weight: 600;
+            }
+            h1 {
+              color: $text-color;
+              font-size: 35px;
+              text-transform: uppercase;
+              margin: 10px 0;
+              font-weight: 900;
+
+            }
+            h4 {
+              font-size: 18px;
+              color: white;
+              font-family: monospace;
+              margin: 10px 0;
+            }
+  
+            button {
+              color: #2b2000; /* Matn rangi */
+              border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+              border-radius: 10px; /* Burchaklarni yumaloqlash */
+              padding: 20px 60px; /* Ichki masofa */
+              font-size: 18px; /* Matn o'lchami */
+              font-weight: bold; /* Matn qalinligi */
+              box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+              cursor: pointer;
+              outline: none;
+              margin: 15px 0;
+              background: linear-gradient(
+                85.95deg,
+                #fad167 0.32%,
+                #ffe68f 60.58%,
+                #ffe08f 120.85%
+              );
+              margin: 35px auto;
+  
+              &:hover {
+                background-color: #f5d05a;
+              }
+            }
+          }
+  
+          .img {
+            width: auto;
+            height: auto;
+  
+            img {
+              width: 100%;
+              height: auto;
+              object-fit: contain;
+            }
+          }
+        }
+      }
+    }
+  
+    .section-parent {
+      width: 100%;
+      height: auto;
+  
+      .text-section {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 30px 0;
+  
+        h1 {
+          color: $text-color;
+          font-size: 55px;
+        }
+        h3 {
+          color: $text-color;
+          font-size: 30px;
+          font-family: monospace;
+          margin: 10px 0;
+        }
+      }
+  
+      .boxses {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+
+  
+        .box {
+          width: 330px;
+          height: 450px;
+          background-color: gray;
+          margin: 20px;
+          border-radius: 15px;
+           
+        }
+      }
+      .btn{
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+  
+        button {
+          color: #2b2000; /* Matn rangi */
+          border: 2px solid #d9b44b; /* Border rangi va o'lchami */
+          border-radius: 10px; /* Burchaklarni yumaloqlash */
+          padding: 15px 20px; /* Ichki masofa */
+          font-size: 18px; /* Matn o'lchami */
+          font-weight: bold; /* Matn qalinligi */
+          box-shadow: inset 0 0 0 1px #000; /* Ichki chet chizig'i */
+          cursor: pointer;
+          outline: none;
+          margin: 15px 0;
+          background: linear-gradient(
+            85.95deg,
+            #fad167 0.32%,
+            #ffe68f 60.58%,
+            #ffe08f 120.85%
+          );
+          margin: 35px 0;
+  
+          &:hover {
+            background-color: #f5d05a;
+          }
+        }
+  
+  
+  
+      }
+    }
+  }
+}

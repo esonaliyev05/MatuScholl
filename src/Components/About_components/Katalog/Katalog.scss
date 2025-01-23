@@ -61,3 +61,247 @@ $bg-color: #edbfe3;
     }
 
 }
+@media screen and (max-width: 447px)  {
+    .katalog{
+        width: 100%;
+        height: auto;
+    
+    
+        .container{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding: 50px 0;
+    
+    
+            .katalog-text{
+                width: 80%;
+                height: auto;
+                text-align: start;
+                margin: 0 auto;
+    
+    
+                h1{
+                    font-size: 54px;
+                    text-transform: uppercase;
+                    color: $text-color;
+                }
+                p{
+                    color: $color-2;
+                    font-size: 25px;
+                    font-weight: 600;
+    
+                }
+    
+            }
+    
+    
+            .parent-katalog{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 60px;
+                justify-content: center;
+                padding: 50px 0;
+    
+    
+                .katalog-chiled{
+                    width: 300px;
+                    height: 280px;
+                    background: rgb(174, 174, 174);
+                    border-radius: 10px;
+    
+    
+                }
+    
+            }
+           
+    
+        }
+    
+    } 
+}
+@media screen and (min-width: 447px) and (max-width: 769px){
+    .katalog{
+        width: 100%;
+        height: auto;
+    
+    
+        .container{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding: 50px 0;
+    
+    
+            .katalog-text{
+                width: 80%;
+                height: auto;
+                text-align: start;
+                margin: 0 auto;
+    
+    
+                h1{
+                    font-size: 54px;
+                    text-transform: uppercase;
+                    color: $text-color;
+                }
+                p{
+                    color: $color-2;
+                    font-size: 25px;
+                    font-weight: 600;
+    
+                }
+    
+            }
+    
+    
+            .parent-katalog{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 60px;
+                justify-content: center;
+                padding: 50px 0;
+    
+    
+                .katalog-chiled{
+                    width: 300px;
+                    height: 280px;
+                    background: rgb(174, 174, 174);
+                    border-radius: 10px;
+    
+    
+                }
+    
+            }
+           
+    
+        }
+    
+    } 
+}
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    .katalog{
+        width: 100%;
+        height: auto;
+    
+    
+        .container{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding: 50px 0;
+    
+    
+            .katalog-text{
+                width: 80%;
+                height: auto;
+                text-align: start;
+                margin: 0 auto;
+    
+    
+                h1{
+                    font-size: 54px;
+                    text-transform: uppercase;
+                    color: $text-color;
+                }
+                p{
+                    color: $color-2;
+                    font-size: 25px;
+                    font-weight: 600;
+    
+                }
+    
+            }
+    
+    
+            .parent-katalog{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 60px;
+                justify-content: center;
+                padding: 50px 0;
+    
+    
+                .katalog-chiled{
+                    width: 300px;
+                    height: 280px;
+                    background: rgb(174, 174, 174);
+                    border-radius: 10px;
+    
+    
+                }
+    
+            }
+           
+    
+        }
+    
+    }  
+}
+@media screen  and (min-width: 960px) and (max-width: 1200px){
+    .katalog{
+        width: 100%;
+        height: auto;
+    
+    
+        .container{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding: 50px 0;
+    
+    
+            .katalog-text{
+                width: 80%;
+                height: auto;
+                text-align: start;
+                margin: 0 auto;
+    
+    
+                h1{
+                    font-size: 54px;
+                    text-transform: uppercase;
+                    color: $text-color;
+                }
+                p{
+                    color: $color-2;
+                    font-size: 25px;
+                    font-weight: 600;
+    
+                }
+    
+            }
+    
+    
+            .parent-katalog{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 60px;
+                justify-content: center;
+                padding: 50px 0;
+    
+    
+                .katalog-chiled{
+                    width: 300px;
+                    height: 280px;
+                    background: rgb(174, 174, 174);
+                    border-radius: 10px;
+    
+    
+                }
+    
+            }
+           
+    
+        }
+    
+    }  
+} 

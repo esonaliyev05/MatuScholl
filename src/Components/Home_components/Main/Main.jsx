@@ -188,7 +188,7 @@ const Main = () => {
             <h3 data-aos="flip-right">на часто задааемые вопросы</h3>
           </div>
 
-          <Accordion className="acardion" data-aos="flip-right">
+          <Accordion className="acardion" >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"
@@ -207,7 +207,7 @@ const Main = () => {
             </AccordionDetails>
           </Accordion>
 
-          <Accordion className="acardion" data-aos="flip-right">
+          <Accordion className="acardion">
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"
@@ -226,7 +226,7 @@ const Main = () => {
             </AccordionDetails>
           </Accordion>
 
-          <Accordion className="acardion" data-aos="flip-right">
+          <Accordion className="acardion">
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"
@@ -245,7 +245,7 @@ const Main = () => {
             </AccordionDetails>
           </Accordion>
 
-          <Accordion className="acardion" data-aos="flip-right">
+          <Accordion className="acardion">
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"
@@ -264,7 +264,7 @@ const Main = () => {
             </AccordionDetails>
           </Accordion>
 
-          <Accordion className="acardion" data-aos="flip-right">
+          <Accordion className="acardion" >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"
@@ -283,7 +283,7 @@ const Main = () => {
             </AccordionDetails>
           </Accordion>
 
-          <Accordion className="acardion" data-aos="flip-right">
+          <Accordion className="acardion" >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"

@@ -17,13 +17,15 @@ function App() {
 
   useEffect(() => {
     // Sayt to‘liq yuklanib bo‘lgach, loaderni o‘chiradi
-    if (document.readyState === "complete") {
-      setLoading(false);
-    } else {
-      const handleLoad = () => {
+    const handleLoad = () => {
+      setTimeout(() => {
         setLoading(false);
-      };
+      }, 1000); // 1 soniya loaderni ko‘rsatish
+    };
 
+    if (document.readyState === "complete") {
+      handleLoad();
+    } else {
       window.addEventListener("load", handleLoad);
 
       // Tozalash

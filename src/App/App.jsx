@@ -20,7 +20,7 @@ function App() {
     const handleLoad = () => {
       setTimeout(() => {
         setLoading(false);
-      }, 1000); // 1 soniya loaderni ko‘rsatish
+      }, 500); // 1 soniya loaderni ko‘rsatish
     };
 
     if (document.readyState === "complete") {

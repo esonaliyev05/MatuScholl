@@ -17,7 +17,9 @@ const AboutHeader = () => {
           <p>
             Технологические карты и <br /> проверенные рецепты тортов
           </p>
-          <button>Каталог уроков</button>
+           <a href="#katalog">
+           <button>Каталог уроков</button>
+           </a>
           </div>
 
         <div className="About-img" data-aos="fade-up-left">

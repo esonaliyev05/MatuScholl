@@ -39,7 +39,7 @@ const Main = () => {
                   близких
                 </p>
               </div>
-              <div className="tab" data-aos="zoom-in" data-aos-duration="500">
+              <div className="tab" data-aos="zoom-in">
                 <div className="icon">
                   {" "}
                   <HiLightBulb /> <h3>Новичок</h3>

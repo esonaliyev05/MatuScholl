@@ -19,7 +19,9 @@ const Header = () => {
             На этой странице вы найдете материалы урока. Готовьте с
             удовольствием !
           </p>
+          <a href="#katalog">
           <button>Каталог уроков</button>
+          </a>
         </div>
 
         <div className="header-img" >

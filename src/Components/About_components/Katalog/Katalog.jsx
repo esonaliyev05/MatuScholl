@@ -4,7 +4,7 @@ import "./Katalog.scss"
 
 const Katalog = () => {
   return (
-    <div className='katalog'>
+    <div className='katalog' id='katalog'>
        
        <div className="container">
 

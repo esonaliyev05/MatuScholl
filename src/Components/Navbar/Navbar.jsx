@@ -27,7 +27,9 @@ const Navbar = () => {
       <nav>
         <div className="container">
           <div className="nav-logo">
+            <a href="#">
             <img src="Nav-img/Mask group.png" alt="logo" />
+            </a>
             <NavLink to={"/"}>
               Онлайн школа <br /> для кондитеров
             </NavLink>
@@ -61,8 +63,11 @@ const Navbar = () => {
         <div className={open ? "Open activ" : "Open"}>
 
         <div className="nav-logo">
-            <img src="Nav-img/Mask group.png" alt="logo" />
-            <NavLink>
+          <a href="#">
+
+            <img src="Nav-img/Mask group.png" alt="logo" onClick={() => setOpen(false)} />
+          </a>
+            <NavLink to={"/"} onClick={() => setOpen(false)}>
               Онлайн школа <br /> для кондитеров
             </NavLink>
           </div>

@@ -53,7 +53,7 @@ const Main = () => {
         </div>
 
         <div className="Main-section-vido">
-          <div className="vido-section-chiled">
+          <div className="vido-section-chiled" id="katalog">
             <div className="text">
               <h1>
                 {" "}

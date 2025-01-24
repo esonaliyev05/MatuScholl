@@ -13,17 +13,42 @@ const Navbar = () => {
         setOpen(false);
       }
     };
-
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
 
+  const [isHidden, setIsHidden] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > 350) {
+      if (currentScrollY > lastScrollY) {
+        setIsHidden(true);
+      } else {
+        setIsHidden(false);
+      }
+    } else {
+      setIsHidden(false);
+    }
+
+    setLastScrollY(currentScrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      // Tozalash funksiyasi
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
+
   return (
     <>
-      <nav>
+      <nav className={`navbar ${isHidden ? "hidden" : ""}`}>
         <div className="container">
           <div className="nav-logo">
             <a href="#">

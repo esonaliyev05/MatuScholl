@@ -28,7 +28,6 @@ const Concat = () => {
 
     const telegramMessage = `
 📝 <b>Yangi habar:</b>
-
 👤 <b>Ism:</b> ${formData.name}
 📞 <b>Telefon:</b> ${formData.phone}
 💬 <b>Xabar:</b> ${formData.message}
@@ -69,8 +68,6 @@ const Concat = () => {
   };
   useEffect(() => {
     window.scrollTo(50, 0);
-
-    
   }, []);
 
   return (
@@ -89,11 +86,8 @@ const Concat = () => {
         <div className="container">
           <div className="concat-text">
             <h2>Напишите нам</h2>
-
             <p>Режим работы тех.поддержки</p>
-
             <h3>Пн-Сб с 9:00 до 19:00</h3>
-
             <p>
               Время ответа в течениие{" "}
               <span>
@@ -145,22 +139,18 @@ const Concat = () => {
                 Отправить сообщение
               </button>
             </form>
-
-       
           </div>
         </div>
         {isModalOpen && (
-              <div className="modal">
-                <div className="modal-content">
-                  <p>{modalMessage}</p>
-                  <button onClick={closeModal} className="close-btn">
-                    Закрыть
-                  </button>
-                </div>
-              </div>
-            )}
-
-
+          <div className="modal">
+            <div className="modal-content">
+              <p>{modalMessage}</p>
+              <button onClick={closeModal} className="close-btn">
+                Закрыть
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </>
   );

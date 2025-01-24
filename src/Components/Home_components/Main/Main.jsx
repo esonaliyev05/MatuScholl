@@ -49,7 +49,7 @@ const Main = () => {
                   и другие кондитеры
                 </p>
               </div>
-              <div className="tab" data-aos="zoom-in" data-aos-duration="500">
+              <div className="tab" data-aos="zoom-in">
                 <div className="icon">
                   {" "}
                   <HiLightBulb /> <h3>Опытный</h3>{" "}

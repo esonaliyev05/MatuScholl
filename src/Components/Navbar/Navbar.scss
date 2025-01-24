@@ -1,10 +1,11 @@
-nav{
+.navbar{
     width: 100%;
     height: auto;
     background: #EDBFE3;
     overflow: hidden;
     position: fixed;
     z-index: 6;
+    transition: all .3s linear;
 
 
     .container{
@@ -66,6 +67,12 @@ nav{
                     background: none;
                     cursor: pointer;
                     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    transition: all .2s linear;
+
+                    &:hover{
+                        background: #fec1f1;
+                        
+                    }
 
                 }
 
@@ -152,9 +159,15 @@ nav{
         }
     }
 
+
+    &.hidden{
+        transform: translateY(-100%);
+
+    }
+
 }
 @media screen and (max-width: 447px){
-    nav{
+    .navbar{
         width: 100%;
         height: auto;
         background: #EDBFE3;
@@ -247,7 +260,7 @@ nav{
     }  
 }
 @media screen and (min-width: 447px) and (max-width: 769px) {
-    nav{
+    .navbar{
         width: 100%;
         height: auto;
         background: #EDBFE3;
@@ -340,7 +353,7 @@ nav{
     }    
 }
 @media screen and (min-width: 769px) and (max-width: 960px) {
-    nav{
+    .navbar{
         width: 100%;
         height: auto;
         background: #EDBFE3;
@@ -450,7 +463,7 @@ nav{
     } 
 }
 @media screen and (min-width: 960px) and (max-width: 1200px) {
-    nav{
+    .navbar{
         width: 100%;
         height: auto;
         background: #EDBFE3;

@@ -4,6 +4,21 @@ import "./Main.scss";
 import { AiOutlineDownload } from "react-icons/ai";
 
 const Main = () => {
+  const handleDownload = () => {
+    const data = "public/Greetings/IMG_7557 копия 3 2 (1).png"
+
+
+    const blob = new Blob([data], { type: "text/plain" }); 
+    const url = window.URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "recept.pdf"; 
+    a.click();
+
+    window.URL.revokeObjectURL(url); 
+    
+  }
   return (
     <div className="Main">
       <div className="container">
@@ -123,17 +138,17 @@ const Main = () => {
       <div className="main-container">
         <div className="parent-container">
           <div className="main-pdf">
-            <div className="text">
-              <h1>Рецепт</h1>
-              <p>для скачивания</p>
-              <a href="#">
-                {" "}
-                <span>
-                  <AiOutlineDownload />
-                </span>{" "}
-                Скачать рецепт
-              </a>
-            </div>
+          <div className="text">
+      <h1>Рецепт</h1>
+      <p>для скачивания</p>
+      <a href="#" onClick={handleDownload} className="download-link">
+        <span>
+          <AiOutlineDownload />
+        </span>{" "}
+        Скачать рецепт
+      </a>
+    </div>
+
 
             <img src="Greeting-img/Mask group (1).png" alt=""  className="pdf"/>
             <img src="Greeting-img/Mask group.png" alt="" className="pdf-end"/>

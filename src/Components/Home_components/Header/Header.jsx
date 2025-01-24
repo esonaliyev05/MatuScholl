@@ -25,10 +25,13 @@ const Header = () => {
               Научись готовить самые вкусные, натуральные и разнообразные
               десерты!
             </p>
+            <NavLink to={"/about"}>
+
             <button data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               {" "}
               Каталог уроков
             </button>
+            </NavLink>
           </div>
 
           <div

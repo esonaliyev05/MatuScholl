@@ -5,6 +5,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import About from "../Page/About";
 import Concat from "../Page/Concat";
 import Greetings from "../Page/Greetings";
+import { Suspense } from "react";
 
 function App() {
   const location = useLocation();
@@ -13,6 +14,12 @@ function App() {
 
   return (
     <>
+        <Suspense fallback={
+          <>
+           <h1>Looder ...</h1>
+          </>
+        }>
+
       {!hideNavbar && <Navbar />}
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,6 +27,7 @@ function App() {
         <Route path="/greetings" element={<Greetings/>}/>
         <Route path="/concat" element={<Concat />} />
       </Routes>
+        </Suspense>
     </>
   );
 }

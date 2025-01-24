@@ -20,7 +20,6 @@ const Navbar = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-  
 
   return (
     <>
@@ -28,7 +27,7 @@ const Navbar = () => {
         <div className="container">
           <div className="nav-logo">
             <a href="#">
-            <img src="Nav-img/Mask group.png" alt="logo" />
+              <img src="Nav-img/Mask group.png" alt="logo" />
             </a>
             <NavLink to={"/"}>
               Онлайн школа <br /> для кондитеров
@@ -61,33 +60,31 @@ const Navbar = () => {
         </div>
 
         <div className={open ? "Open activ" : "Open"}>
-
-        <div className="nav-logo">
-          <a href="#">
-
-            <img src="Nav-img/Mask group.png" alt="logo" onClick={() => setOpen(false)} />
-          </a>
+          <div className="nav-logo">
+            <a href="#">
+              <img
+                src="Nav-img/Mask group.png"
+                alt="logo"
+                onClick={() => setOpen(false)}
+              />
+            </a>
             <NavLink to={"/"} onClick={() => setOpen(false)}>
               Онлайн школа <br /> для кондитеров
             </NavLink>
           </div>
-             
-        <ul>
-              <li onClick={() => setOpen(false)}>
-                <NavLink to={"/"}>Акции</NavLink>
-              </li>
-              <li onClick={() => setOpen(false)}>
-                <NavLink to={"/about"}>Отзывы</NavLink>
-              </li>
-              <li onClick={() => setOpen(false)}>
-                <NavLink to={"/greetings"}> Техподдержка</NavLink>
-              </li>
-            </ul>
 
+          <ul>
+            <li onClick={() => setOpen(false)}>
+              <NavLink to={"/"}>Акции</NavLink>
+            </li>
+            <li onClick={() => setOpen(false)}>
+              <NavLink to={"/about"}>Отзывы</NavLink>
+            </li>
+            <li onClick={() => setOpen(false)}>
+              <NavLink to={"/greetings"}> Техподдержка</NavLink>
+            </li>
+          </ul>
         </div>
-          
-         
-         
       </nav>
     </>
   );

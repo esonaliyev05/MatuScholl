@@ -10,6 +10,7 @@ import {
   Typography,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { NavLink } from "react-router-dom";
 
 const Main = () => {
   useEffect(() => {
@@ -309,7 +310,9 @@ const Main = () => {
             Напишите нам в техподдержку и мы свяжемся с вами в ближайшее время и
             ответим на ваши вопросы
           </p>
+          <NavLink to={"/concat"}>
           <button >Техподдержка</button>
+          </NavLink>
         </div>
       </div>
     </>

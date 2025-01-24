@@ -110,16 +110,12 @@ const Main = () => {
               </h1>{" "}
             </div>
 
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/J8Fcg3AHqQ4?si=rwmJMVceK4r7UV8D"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+            <video
+              src="https://youtu.be/062V6tR3xkw?si=W3gtllcnjoy4P9XA"
+              controls
               className="Video"
-            ></iframe>
+            ></video>
+
           </div>
         </div>
       </div>

@@ -41,7 +41,7 @@ const Header = () => {
           >
             <img
               src="Header-bacroun/c6ad46cab7671279612e443410a9a62e.png"
-              alt="massage"
+              alt="massage-header-img"
             />
           </div>
         </div>

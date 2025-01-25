@@ -149,7 +149,7 @@ const Main = () => {
                   <span>для приготовления тортов</span>
                 </div>{" "}
                 <img src="Main-cent/1.png" alt="massange" className="old" />{" "}
-                <img src="public/Main-cent/1.1.png" alt="" className="end" />{" "}
+                <img src="Main-cent/1.1.png" alt="" className="end" />{" "}
               </div>
               <div className="tols" data-aos="zoom-in">
                 {" "}
@@ -157,7 +157,7 @@ const Main = () => {
                   Авторский курс от <span> Matu school</span> для кондитеров
                 </div>{" "}
                 <img src="Main-cent/2.png" alt="masssage" className="old" />{" "}
-                <img src="public/Main-cent/2.1.png" alt="" className="end" />
+                <img src="Main-cent/2.1.png" alt="" className="end" />
               </div>
               <div className="tols" data-aos="fade-left">
                 {" "}

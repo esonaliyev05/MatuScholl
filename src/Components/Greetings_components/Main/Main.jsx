@@ -2,6 +2,7 @@ import React from "react";
 import { FaPlay } from "react-icons/fa";
 import "./Main.scss";
 import { AiOutlineDownload } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 
 const Main = () => {
   const handleDownload = () => {
@@ -200,7 +201,9 @@ const Main = () => {
          </div>
            
            <div className="btn">
+            <NavLink to={"/concat"}>
             <button>Перейти в каталог рецептов</button>
+            </NavLink>
            </div>
 
        </div>

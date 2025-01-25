@@ -40,190 +40,251 @@ export default function App() {
         slidesPerView={3}
         className="Main-swiper-end"
       >
-        <SwiperSlide >
+        <SwiperSlide>
           <div className="swiper-chiled">
+            <div className="swiper-top">
+              <div className="img">
+                <img src="Main-swiper/Rectangle 14.png" alt="" />
+              </div>
 
-          <div className="swiper-top">
-            <div className="img">
-              <img src="Main-swiper/Rectangle 14.png" alt="" />
+              <div className="text-swp">
+                {" "}
+                <h4 className="text-h3">
+                  Анна <br />
+                  <span> 26 лет, Бухгалтер </span>
+                </h4>{" "}
+              </div>
+
+              <div className="icon">
+                <FaQuoteLeft />
+              </div>
             </div>
 
-            <div className="text-swp"> <h4 className="text-h3">Анна   <br /><span> 26 лет, Бухгалтер </span></h4> </div>
+            <p>
+              Я всегда мечтала научиться готовить красивые и вкусные торты, но
+              не знала, с чего начать. Этот курс стал для меня настоящим
+              открытием! Уроки понятные, а преподаватели очень терпеливые и
+              всегда готовы помочь. Теперь мои торты – настоящие произведения
+              искусства, и я даже начала принимать заказы! Огромное спасибо за
+              это обучение!
+            </p>
 
-            <div className="icon"><FaQuoteLeft/></div>
-          </div>
-
-          <p>Я всегда мечтала научиться готовить красивые и вкусные торты, но не знала, с чего начать. Этот курс стал для меня настоящим открытием! Уроки понятные, а преподаватели очень терпеливые и всегда готовы помочь. Теперь мои торты – настоящие произведения искусства, и я даже начала принимать заказы! Огромное спасибо за это обучение!</p>
-
-           
-           <div className="swiper-end">
-            <div className="start">
-                <IoStarSharp className="sart"/>
+            <div className="swiper-end">
+              <div className="start">
+                <IoStarSharp className="sart" />
 
                 <span>(4.8)</span>
+              </div>
 
+              <p>2 марта 2024 год</p>
             </div>
-
-            <p>2 марта 2024 год</p>
-           </div>
-
           </div>
         </SwiperSlide>
-    
-        <SwiperSlide >
-          <div className="swiper-chiled">
 
-          <div className="swiper-top">
-            <div className="img">
-              <img src="Main-swiper/Rectangle 14.png" alt="" />
+        <SwiperSlide>
+          <div className="swiper-chiled">
+            <div className="swiper-top">
+              <div className="img">
+                <img src="Main-swiper/Rectangle 14.png" alt="" />
+              </div>
+
+              <div className="text-swp">
+                {" "}
+                <h4 className="text-h3">
+                  Анна <br />
+                  <span> 26 лет, Бухгалтер </span>
+                </h4>{" "}
+              </div>
+
+              <div className="icon">
+                <FaQuoteLeft />
+              </div>
             </div>
 
-            <div className="text-swp"> <h4 className="text-h3">Анна   <br /><span> 26 лет, Бухгалтер </span></h4> </div>
+            <p>
+              Я всегда мечтала научиться готовить красивые и вкусные торты, но
+              не знала, с чего начать. Этот курс стал для меня настоящим
+              открытием! Уроки понятные, а преподаватели очень терпеливые и
+              всегда готовы помочь. Теперь мои торты – настоящие произведения
+              искусства, и я даже начала принимать заказы! Огромное спасибо за
+              это обучение!
+            </p>
 
-            <div className="icon"><FaQuoteLeft/></div>
-          </div>
-
-          <p>Я всегда мечтала научиться готовить красивые и вкусные торты, но не знала, с чего начать. Этот курс стал для меня настоящим открытием! Уроки понятные, а преподаватели очень терпеливые и всегда готовы помочь. Теперь мои торты – настоящие произведения искусства, и я даже начала принимать заказы! Огромное спасибо за это обучение!</p>
-
-           
-           <div className="swiper-end">
-            <div className="start">
-                <IoStarSharp className="sart"/>
+            <div className="swiper-end">
+              <div className="start">
+                <IoStarSharp className="sart" />
 
                 <span>(4.8)</span>
+              </div>
 
+              <p>2 марта 2024 год</p>
             </div>
-
-            <p>2 марта 2024 год</p>
-           </div>
-
           </div>
         </SwiperSlide>
-    
-        <SwiperSlide >
-          <div className="swiper-chiled">
 
-          <div className="swiper-top">
-            <div className="img">
-              <img src="Main-swiper/Rectangle 14.png" alt="" />
+        <SwiperSlide>
+          <div className="swiper-chiled">
+            <div className="swiper-top">
+              <div className="img">
+                <img src="Main-swiper/Rectangle 14.png" alt="" />
+              </div>
+
+              <div className="text-swp">
+                {" "}
+                <h4 className="text-h3">
+                  Анна <br />
+                  <span> 26 лет, Бухгалтер </span>
+                </h4>{" "}
+              </div>
+
+              <div className="icon">
+                <FaQuoteLeft />
+              </div>
             </div>
 
-            <div className="text-swp"> <h4 className="text-h3">Анна   <br /><span> 26 лет, Бухгалтер </span></h4> </div>
+            <p>
+              Я всегда мечтала научиться готовить красивые и вкусные торты, но
+              не знала, с чего начать. Этот курс стал для меня настоящим
+              открытием! Уроки понятные, а преподаватели очень терпеливые и
+              всегда готовы помочь. Теперь мои торты – настоящие произведения
+              искусства, и я даже начала принимать заказы! Огромное спасибо за
+              это обучение!
+            </p>
 
-            <div className="icon"><FaQuoteLeft/></div>
-          </div>
-
-          <p>Я всегда мечтала научиться готовить красивые и вкусные торты, но не знала, с чего начать. Этот курс стал для меня настоящим открытием! Уроки понятные, а преподаватели очень терпеливые и всегда готовы помочь. Теперь мои торты – настоящие произведения искусства, и я даже начала принимать заказы! Огромное спасибо за это обучение!</p>
-
-           
-           <div className="swiper-end">
-            <div className="start">
-                <IoStarSharp className="sart"/>
+            <div className="swiper-end">
+              <div className="start">
+                <IoStarSharp className="sart" />
 
                 <span>(4.8)</span>
+              </div>
 
+              <p>2 марта 2024 год</p>
             </div>
-
-            <p>2 марта 2024 год</p>
-           </div>
-
           </div>
         </SwiperSlide>
-    
-        <SwiperSlide >
-          <div className="swiper-chiled">
 
-          <div className="swiper-top">
-            <div className="img">
-              <img src="Main-swiper/Rectangle 14.png" alt="" />
+        <SwiperSlide>
+          <div className="swiper-chiled">
+            <div className="swiper-top">
+              <div className="img">
+                <img src="Main-swiper/Rectangle 14.png" alt="" />
+              </div>
+
+              <div className="text-swp">
+                {" "}
+                <h4 className="text-h3">
+                  Анна <br />
+                  <span> 26 лет, Бухгалтер </span>
+                </h4>{" "}
+              </div>
+
+              <div className="icon">
+                <FaQuoteLeft />
+              </div>
             </div>
 
-            <div className="text-swp"> <h4 className="text-h3">Анна   <br /><span> 26 лет, Бухгалтер </span></h4> </div>
+            <p>
+              Я всегда мечтала научиться готовить красивые и вкусные торты, но
+              не знала, с чего начать. Этот курс стал для меня настоящим
+              открытием! Уроки понятные, а преподаватели очень терпеливые и
+              всегда готовы помочь. Теперь мои торты – настоящие произведения
+              искусства, и я даже начала принимать заказы! Огромное спасибо за
+              это обучение!
+            </p>
 
-            <div className="icon"><FaQuoteLeft/></div>
-          </div>
-
-          <p>Я всегда мечтала научиться готовить красивые и вкусные торты, но не знала, с чего начать. Этот курс стал для меня настоящим открытием! Уроки понятные, а преподаватели очень терпеливые и всегда готовы помочь. Теперь мои торты – настоящие произведения искусства, и я даже начала принимать заказы! Огромное спасибо за это обучение!</p>
-
-           
-           <div className="swiper-end">
-            <div className="start">
-                <IoStarSharp className="sart"/>
+            <div className="swiper-end">
+              <div className="start">
+                <IoStarSharp className="sart" />
 
                 <span>(4.8)</span>
+              </div>
 
+              <p>2 марта 2024 год</p>
             </div>
-
-            <p>2 марта 2024 год</p>
-           </div>
-
           </div>
         </SwiperSlide>
-    
-        <SwiperSlide >
-          <div className="swiper-chiled">
 
-          <div className="swiper-top">
-            <div className="img">
-              <img src="Main-swiper/Rectangle 14.png" alt="" />
+        <SwiperSlide>
+          <div className="swiper-chiled">
+            <div className="swiper-top">
+              <div className="img">
+                <img src="Main-swiper/Rectangle 14.png" alt="" />
+              </div>
+
+              <div className="text-swp">
+                {" "}
+                <h4 className="text-h3">
+                  Анна <br />
+                  <span> 26 лет, Бухгалтер </span>
+                </h4>{" "}
+              </div>
+
+              <div className="icon">
+                <FaQuoteLeft />
+              </div>
             </div>
 
-            <div className="text-swp"> <h4 className="text-h3">Анна   <br /><span> 26 лет, Бухгалтер </span></h4> </div>
+            <p>
+              Я всегда мечтала научиться готовить красивые и вкусные торты, но
+              не знала, с чего начать. Этот курс стал для меня настоящим
+              открытием! Уроки понятные, а преподаватели очень терпеливые и
+              всегда готовы помочь. Теперь мои торты – настоящие произведения
+              искусства, и я даже начала принимать заказы! Огромное спасибо за
+              это обучение!
+            </p>
 
-            <div className="icon"><FaQuoteLeft/></div>
-          </div>
-
-          <p>Я всегда мечтала научиться готовить красивые и вкусные торты, но не знала, с чего начать. Этот курс стал для меня настоящим открытием! Уроки понятные, а преподаватели очень терпеливые и всегда готовы помочь. Теперь мои торты – настоящие произведения искусства, и я даже начала принимать заказы! Огромное спасибо за это обучение!</p>
-
-           
-           <div className="swiper-end">
-            <div className="start">
-                <IoStarSharp className="sart"/>
+            <div className="swiper-end">
+              <div className="start">
+                <IoStarSharp className="sart" />
 
                 <span>(4.8)</span>
+              </div>
 
+              <p>2 марта 2024 год</p>
             </div>
-
-            <p>2 марта 2024 год</p>
-           </div>
-
           </div>
         </SwiperSlide>
-    
-        <SwiperSlide >
-          <div className="swiper-chiled">
 
-          <div className="swiper-top">
-            <div className="img">
-              <img src="Main-swiper/Rectangle 14.png" alt="" />
+        <SwiperSlide>
+          <div className="swiper-chiled">
+            <div className="swiper-top">
+              <div className="img">
+                <img src="Main-swiper/Rectangle 14.png" alt="" />
+              </div>
+
+              <div className="text-swp">
+                {" "}
+                <h4 className="text-h3">
+                  Анна <br />
+                  <span> 26 лет, Бухгалтер </span>
+                </h4>{" "}
+              </div>
+
+              <div className="icon">
+                <FaQuoteLeft />
+              </div>
             </div>
 
-            <div className="text-swp"> <h4 className="text-h3">Анна   <br /><span> 26 лет, Бухгалтер </span></h4> </div>
+            <p>
+              Я всегда мечтала научиться готовить красивые и вкусные торты, но
+              не знала, с чего начать. Этот курс стал для меня настоящим
+              открытием! Уроки понятные, а преподаватели очень терпеливые и
+              всегда готовы помочь. Теперь мои торты – настоящие произведения
+              искусства, и я даже начала принимать заказы! Огромное спасибо за
+              это обучение!
+            </p>
 
-            <div className="icon"><FaQuoteLeft/></div>
-          </div>
-
-          <p>Я всегда мечтала научиться готовить красивые и вкусные торты, но не знала, с чего начать. Этот курс стал для меня настоящим открытием! Уроки понятные, а преподаватели очень терпеливые и всегда готовы помочь. Теперь мои торты – настоящие произведения искусства, и я даже начала принимать заказы! Огромное спасибо за это обучение!</p>
-
-           
-           <div className="swiper-end">
-            <div className="start">
-                <IoStarSharp className="sart"/>
+            <div className="swiper-end">
+              <div className="start">
+                <IoStarSharp className="sart" />
 
                 <span>(4.8)</span>
+              </div>
 
+              <p>2 марта 2024 год</p>
             </div>
-
-            <p>2 марта 2024 год</p>
-           </div>
-
           </div>
         </SwiperSlide>
-    
-       
-
-
-     
 
         <div className="swiper-btn">
           <div className="nextarrow">

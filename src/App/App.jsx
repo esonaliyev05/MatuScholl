@@ -61,7 +61,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/greetings" element={<Greetings />} />
           <Route path="/concat" element={<Concat />} />
-          
         </Routes>
       </Suspense>
     </>

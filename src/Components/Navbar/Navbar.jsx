@@ -41,7 +41,6 @@ const Navbar = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
-      // Tozalash funksiyasi
       window.removeEventListener("scroll", handleScroll);
     };
   }, [lastScrollY]);

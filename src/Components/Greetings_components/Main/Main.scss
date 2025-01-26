@@ -292,14 +292,13 @@ $bg-color: #edbfe3;
         margin: 20px;
         border-radius: 15px;
 
-        img{
+        img {
           width: 100%;
           height: 100%;
-          
         }
-
       }
     }
+    
     .btn {
       width: 100%;
       height: 180px;
@@ -1033,23 +1032,23 @@ $bg-color: #edbfe3;
     height: auto;
     position: relative;
     padding: 150px 0 0 0;
-  
+
     .container {
       width: 95%;
       height: auto;
       margin: 0 auto;
-  
+
       .Main-section {
         width: 100%;
         height: auto;
-  
+
         .section-old {
           width: 100%;
           height: auto;
           display: flex;
           align-items: center;
           justify-content: space-between;
-  
+
           .text {
             width: auto;
             p {
@@ -1058,7 +1057,7 @@ $bg-color: #edbfe3;
               font-size: 20px;
               font-weight: normal;
             }
-  
+
             h1 {
               color: $text-color;
               font-size: 45px;
@@ -1066,80 +1065,78 @@ $bg-color: #edbfe3;
             }
           }
 
-          img{
+          img {
             width: 50%;
           }
-
         }
-  
+
         .section-end {
           width: 100%;
           height: auto;
           display: flex;
           justify-content: space-between;
           align-items: center;
-  
+
           img {
             width: 50%;
             height: auto;
             object-fit: cover;
           }
-  
+
           .text {
             width: auto;
             height: auto;
             text-align: start;
-  
+
             h3 {
               color: $text-color;
               font-family: monospace;
               font-size: 28px;
               font-weight: 900;
             }
-  
+
             ol {
               width: auto;
-  
+
               li {
                 font-size: 20px;
                 color: $text-color;
                 font-family: monospace;
                 margin: 5px 0;
-
               }
             }
           }
         }
       }
-  
+
       .Main-section-vido {
         width: 100%;
         height: auto;
         display: flex;
         flex-wrap: wrap;
-  
+
         .vido-section-chiled {
           width: 100%;
           height: auto;
           margin: 35px 0;
-  
+
           .text {
             width: 100%;
             height: auto;
             text-align: start;
-  
+
             h1 {
               color: $text-color;
               font-size: 45px;
               text-transform: uppercase;
-  
+
               span {
                 font-size: 30px;
                 font-weight: 400;
               }
             }
           }
-  
+
           .Video {
             width: 100%;
             height: 450px;
@@ -1154,13 +1151,13 @@ $bg-color: #edbfe3;
       height: auto;
       background: $bg-color;
       padding: 50px 0;
-      margin:  0 0 50px;
-  
+      margin: 0 0 50px;
+
       .parent-container {
         width: 100%;
         height: auto;
         margin: 0 auto;
-  
+
         .main-pdf {
           width: 80%;
           height: 250px;
@@ -1169,7 +1166,7 @@ $bg-color: #edbfe3;
           margin: 35px auto;
           position: relative;
           border-radius: 16px;
-  
+
           .text {
             width: 50%;
             height: auto;
@@ -1177,19 +1174,19 @@ $bg-color: #edbfe3;
             position: relative;
             left: 50px;
             top: 20%;
-  
+
             h1 {
               color: $text-color;
               font-size: 65px;
             }
-  
+
             p {
               color: $color-2;
               font-family: monospace;
               font-size: 20px;
               margin: 10px 0;
             }
-  
+
             a {
               color: #7a7156;
               display: flex;
@@ -1200,7 +1197,7 @@ $bg-color: #edbfe3;
               gap: 10px;
             }
           }
-  
+
           .pdf {
             width: 150px;
             height: auto;
@@ -1217,7 +1214,7 @@ $bg-color: #edbfe3;
             bottom: 0;
           }
         }
-  
+
         .main-parent {
           width: 90%;
           height: 250px;
@@ -1226,11 +1223,11 @@ $bg-color: #edbfe3;
           align-items: center;
           margin: 0 auto;
           // flex-wrap: wrap;
-  
+
           .text {
             width: 50%;
             height: auto;
-  
+
             p {
               color: white;
               font-family: monospace;
@@ -1248,7 +1245,7 @@ $bg-color: #edbfe3;
               color: white;
               font-family: monospace;
             }
-  
+
             button {
               color: #2b2000; /* Matn rangi */
               border: 2px solid #d9b44b; /* Border rangi va o'lchami */
@@ -1267,17 +1264,17 @@ $bg-color: #edbfe3;
                 #ffe08f 120.85%
               );
               margin: 35px 0;
-  
+
               &:hover {
                 background-color: #f5d05a;
               }
             }
           }
-  
+
           .img {
             width: 50%;
             height: auto;
-  
+
             img {
               width: 100%;
               height: auto;
@@ -1287,17 +1284,17 @@ $bg-color: #edbfe3;
         }
       }
     }
-  
+
     .section-parent {
       width: 100%;
       height: auto;
-  
+
       .text-section {
         width: 100%;
         height: auto;
         text-align: center;
         margin: 30px 0;
-  
+
         h1 {
           color: $text-color;
           font-size: 75px;
@@ -1309,7 +1306,7 @@ $bg-color: #edbfe3;
           margin: 10px 0;
         }
       }
-  
+
       .boxses {
         width: 95%;
         height: auto;
@@ -1318,7 +1315,7 @@ $bg-color: #edbfe3;
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
-  
+
         .box {
           width: 350px;
           height: 450px;
@@ -1333,7 +1330,7 @@ $bg-color: #edbfe3;
         display: flex;
         justify-content: center;
         align-items: center;
-  
+
         button {
           color: #2b2000; /* Matn rangi */
           border: 2px solid #d9b44b; /* Border rangi va o'lchami */
@@ -1352,7 +1349,7 @@ $bg-color: #edbfe3;
             #ffe08f 120.85%
           );
           margin: 35px 0;
-  
+
           &:hover {
             background-color: #f5d05a;
           }
@@ -1368,23 +1365,23 @@ $bg-color: #edbfe3;
     height: auto;
     position: relative;
     padding: 150px 0 0 0;
-  
+
     .container {
       width: 95%;
       height: auto;
       margin: 0 auto;
-  
+
       .Main-section {
         width: 100%;
         height: auto;
-  
+
         .section-old {
           width: 100%;
           height: auto;
           display: flex;
           align-items: center;
           justify-content: space-between;
-  
+
           .text {
             width: auto;
             p {
@@ -1393,7 +1390,7 @@ $bg-color: #edbfe3;
               font-size: 20px;
               font-weight: normal;
             }
-  
+
             h1 {
               color: $text-color;
               font-size: 45px;
@@ -1401,80 +1398,78 @@ $bg-color: #edbfe3;
             }
           }
 
-          img{
+          img {
             width: 50%;
           }
-
         }
-  
+
         .section-end {
           width: 100%;
           height: auto;
           display: flex;
           justify-content: space-between;
           align-items: center;
-  
+
           img {
             width: 50%;
             height: auto;
             object-fit: cover;
           }
-  
+
           .text {
             width: auto;
             height: auto;
             text-align: start;
-  
+
             h3 {
               color: $text-color;
               font-family: monospace;
               font-size: 28px;
               font-weight: 900;
             }
-  
+
             ol {
               width: auto;
-  
+
               li {
                 font-size: 20px;
                 color: $text-color;
                 font-family: monospace;
                 margin: 5px 0;
-
               }
             }
           }
         }
       }
-  
+
       .Main-section-vido {
         width: 100%;
         height: auto;
         display: flex;
         flex-wrap: wrap;
-  
+
         .vido-section-chiled {
           width: 100%;
           height: auto;
           margin: 35px 0;
-  
+
           .text {
             width: 100%;
             height: auto;
             text-align: start;
-  
+
             h1 {
               color: $text-color;
               font-size: 45px;
               text-transform: uppercase;
-  
+
               span {
                 font-size: 30px;
                 font-weight: 400;
               }
             }
           }
-  
+
           .Video {
             width: 100%;
             height: 450px;
@@ -1489,13 +1484,13 @@ $bg-color: #edbfe3;
       height: auto;
       background: $bg-color;
       padding: 50px 0;
-      margin:  0 0 50px;
-  
+      margin: 0 0 50px;
+
       .parent-container {
         width: 100%;
         height: auto;
         margin: 0 auto;
-  
+
         .main-pdf {
           width: 80%;
           height: 250px;
@@ -1504,7 +1499,7 @@ $bg-color: #edbfe3;
           margin: 35px auto;
           position: relative;
           border-radius: 16px;
-  
+
           .text {
             width: 50%;
             height: auto;
@@ -1512,19 +1507,19 @@ $bg-color: #edbfe3;
             position: relative;
             left: 50px;
             top: 20%;
-  
+
             h1 {
               color: $text-color;
               font-size: 65px;
             }
-  
+
             p {
               color: $color-2;
               font-family: monospace;
               font-size: 20px;
               margin: 10px 0;
             }
-  
+
             a {
               color: #7a7156;
               display: flex;
@@ -1535,7 +1530,7 @@ $bg-color: #edbfe3;
               gap: 10px;
             }
           }
-  
+
           .pdf {
             width: 150px;
             height: auto;
@@ -1552,7 +1547,7 @@ $bg-color: #edbfe3;
             bottom: 0;
           }
         }
-  
+
         .main-parent {
           width: 90%;
           height: 250px;
@@ -1561,11 +1556,11 @@ $bg-color: #edbfe3;
           align-items: center;
           margin: 0 auto;
           // flex-wrap: wrap;
-  
+
           .text {
             width: 50%;
             height: auto;
-  
+
             p {
               color: white;
               font-family: monospace;
@@ -1583,7 +1578,7 @@ $bg-color: #edbfe3;
               color: white;
               font-family: monospace;
             }
-  
+
             button {
               color: #2b2000; /* Matn rangi */
               border: 2px solid #d9b44b; /* Border rangi va o'lchami */
@@ -1602,17 +1597,17 @@ $bg-color: #edbfe3;
                 #ffe08f 120.85%
               );
               margin: 35px 0;
-  
+
               &:hover {
                 background-color: #f5d05a;
               }
             }
           }
-  
+
           .img {
             width: 50%;
             height: auto;
-  
+
             img {
               width: 100%;
               height: auto;
@@ -1622,17 +1617,17 @@ $bg-color: #edbfe3;
         }
       }
     }
-  
+
     .section-parent {
       width: 100%;
       height: auto;
-  
+
       .text-section {
         width: 100%;
         height: auto;
         text-align: center;
         margin: 30px 0;
-  
+
         h1 {
           color: $text-color;
           font-size: 75px;
@@ -1644,7 +1639,7 @@ $bg-color: #edbfe3;
           margin: 10px 0;
         }
       }
-  
+
       .boxses {
         width: 95%;
         height: auto;
@@ -1653,7 +1648,7 @@ $bg-color: #edbfe3;
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
-  
+
         .box {
           width: 350px;
           height: 450px;
@@ -1668,7 +1663,7 @@ $bg-color: #edbfe3;
         display: flex;
         justify-content: center;
         align-items: center;
-  
+
         button {
           color: #2b2000; /* Matn rangi */
           border: 2px solid #d9b44b; /* Border rangi va o'lchami */
@@ -1687,12 +1682,12 @@ $bg-color: #edbfe3;
             #ffe08f 120.85%
           );
           margin: 35px 0;
-  
+
           &:hover {
             background-color: #f5d05a;
           }
         }
       }
     }
-  } 
+  }
 }

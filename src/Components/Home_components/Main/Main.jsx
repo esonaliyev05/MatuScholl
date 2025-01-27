@@ -10,9 +10,15 @@ import {
   Typography,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Main = () => {
+  const navigate = useNavigate();
+
+  const handleProductClick = (productId) => {
+    navigate(`/shop/${productId}`);
+  };
+
   useEffect(() => {
     Aos.init({ once: false });
     Aos.refresh(); // Har safar yangilash
@@ -142,7 +148,11 @@ const Main = () => {
             </div>
 
             <div className="controls-parent">
-              <div className="tols" data-aos="fade-right">
+              <div
+                className="tols"
+                data-aos="fade-right"
+                onClick={() => handleProductClick(1)}
+              >
                 {" "}
                 <div className="text">
                   Видео-уроки и технологичесике карты{" "}
@@ -151,7 +161,11 @@ const Main = () => {
                 <img src="Main-cent/1.png" alt="massange" className="old" />{" "}
                 <img src="Main-cent/1.1.png" alt="" className="end" />{" "}
               </div>
-              <div className="tols" data-aos="zoom-in">
+              <div
+                className="tols"
+                data-aos="zoom-in"
+                onClick={() => handleProductClick(2)}
+              >
                 {" "}
                 <div className="text">
                   Авторский курс от <span> Matu school</span> для кондитеров
@@ -159,7 +173,11 @@ const Main = () => {
                 <img src="Main-cent/2.png" alt="masssage" className="old" />{" "}
                 <img src="Main-cent/2.1.png" alt="" className="end" />
               </div>
-              <div className="tols" data-aos="fade-left">
+              <div
+                className="tols"
+                data-aos="fade-left"
+                onClick={() => handleProductClick(3)}
+              >
                 {" "}
                 <div className="text">
                   Гайд по приготовлению <span>бенто тортиков</span>
@@ -180,7 +198,7 @@ const Main = () => {
 
           <h3 data-aos="flip-right">довольные результатом обучения</h3>
 
-          <Swiper  />
+          <Swiper />
         </div>
 
         <div className="main-acardion">
@@ -189,25 +207,6 @@ const Main = () => {
             <h3 data-aos="flip-right">на часто задааемые вопросы</h3>
           </div>
 
-          <Accordion className="acardion" >
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel2-content"
-              id="panel2-header"
-            >
-              <Typography component="span">
-                Ниже мы собрали часто задаваемые вопросы и ответили на них
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-
           <Accordion className="acardion">
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -265,7 +264,7 @@ const Main = () => {
             </AccordionDetails>
           </Accordion>
 
-          <Accordion className="acardion" >
+          <Accordion className="acardion">
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"
@@ -284,7 +283,26 @@ const Main = () => {
             </AccordionDetails>
           </Accordion>
 
-          <Accordion className="acardion" >
+          <Accordion className="acardion">
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel2-content"
+              id="panel2-header"
+            >
+              <Typography component="span">
+                Ниже мы собрали часто задаваемые вопросы и ответили на них
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+                eget.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+
+          <Accordion className="acardion">
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"
@@ -305,13 +323,13 @@ const Main = () => {
         </div>
 
         <div className="main-end">
-          <h3 >Остались Вопросы ?</h3>
+          <h3>Остались Вопросы ?</h3>
           <p>
             Напишите нам в техподдержку и мы свяжемся с вами в ближайшее время и
             ответим на ваши вопросы
           </p>
           <NavLink to={"/concat"}>
-          <button >Техподдержка</button>
+            <button>Техподдержка</button>
           </NavLink>
         </div>
       </div>

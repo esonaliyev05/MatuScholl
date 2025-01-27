@@ -109,33 +109,27 @@ $bg-color: #edbfe3;
           font-size: 15px;
           font-weight: 600;
           margin: 0 0 10px 5px;
-
-   
         }
-        input{
-            width: 100%;
-            height: 40px;
-            border-radius: 16px;
-            // background: linear-gradient(0deg gray);
-            background: rgb(235, 235, 235);
-            border: none;
-           padding: 0 15px;
-           outline: none;
+        input {
+          width: 100%;
+          height: 40px;
+          border-radius: 16px;
+          // background: linear-gradient(0deg gray);
+          background: rgb(235, 235, 235);
+          border: none;
+          padding: 0 15px;
+          outline: none;
+        }
 
-            
-          }
-
-
-          textarea{
-            width: 100%;
-            height: 100px;
-            border-radius: 16px;
-            outline: none;
-            border: none;
-            background: rgb(235, 235, 235);
-            padding: 10px;
-          }
-
+        textarea {
+          width: 100%;
+          height: 100px;
+          border-radius: 16px;
+          outline: none;
+          border: none;
+          background: rgb(235, 235, 235);
+          padding: 10px;
+        }
       }
       .submit-btn {
         display: inline-block;
@@ -153,22 +147,16 @@ $bg-color: #edbfe3;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Soyali effekt */
         transition: all 0.3s ease; /* Animatsiya */
       }
-      
+
       .submit-btn:hover {
         transform: translateY(-2px); /* Hoverda biroz ko'tariladi */
         box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Hoverda soyali effekt kuchayadi */
       }
-      
+
       .submit-btn:active {
         transform: translateY(0); /* Tugmani bosganda asl joyiga qaytadi */
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Tugmani bosganda soyasi kichrayadi */
       }
-
-    
-      
-
-     
-
     }
   }
 
@@ -184,7 +172,7 @@ $bg-color: #edbfe3;
     justify-content: center;
     z-index: 1000; /* Modalni yuqoriga olib chiqish */
   }
-  
+
   .modal-content {
     background: #fff; /* Oq fon */
     padding: 20px;
@@ -194,13 +182,13 @@ $bg-color: #edbfe3;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soyali effekt */
     animation: modalFadeIn 0.3s ease-in-out; /* Animatsiya */
   }
-  
+
   .modal-content p {
     font-size: 16px;
     color: #333;
     margin-bottom: 20px;
   }
-  
+
   .close-btn {
     background: #ddb2d4; /* Tugma uchun mos rang */
     color: #fff;
@@ -211,16 +199,14 @@ $bg-color: #edbfe3;
     cursor: pointer;
     transition: background 0.3s;
   }
-  
+
   .close-btn:hover {
     background: #c095b8; /* Hoverda tugma rangi o'zgaradi */
   }
-  
+
   .close-btn:active {
     background: #a17f9a; /* Tugma bosilganda rangi */
   }
-
-
 
   /* Modal paydo bo'lishi uchun animatsiya */
   @keyframes modalFadeIn {
@@ -233,21 +219,18 @@ $bg-color: #edbfe3;
       transform: scale(1); /* Asl o'lchamga qaytadi */
     }
   }
-  
-
-
 }
 @media screen and (max-width: 447px) {
   .Concat-main {
     width: 100%;
- 
+
     background: $bg-color;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding:  50px 0;
-  
+    padding: 50px 0;
+
     .concat-logo {
       width: 90%;
       height: auto;
@@ -255,22 +238,22 @@ $bg-color: #edbfe3;
       align-items: center;
       justify-content: center;
       margin: 15px auto;
-  
+
       a {
         display: flex;
         justify-content: center;
         gap: 15px;
         align-items: center;
-  
-        img{
+
+        img {
           width: 100px;
         }
-         
+
         h3 {
           color: white;
           font-size: 35px;
           line-height: 25px;
-  
+
           span {
             font-size: 20px;
             font-family: monospace;
@@ -280,7 +263,7 @@ $bg-color: #edbfe3;
         }
       }
     }
-  
+
     .container {
       width: 90%;
       height: 550px;
@@ -302,25 +285,25 @@ $bg-color: #edbfe3;
       border-radius: 12px;
       z-index: 8;
       padding: 15px 35px;
-  
+
       .concat-text {
         width: 100%;
         height: auto;
         text-align: center;
-  
+
         h2 {
           color: $text-color;
           font-family: monospace;
           font-size: 30px;
         }
-  
+
         h3 {
           color: $color-2;
           font-family: monospace;
           font-weight: bold;
           font-size: 18px;
         }
-  
+
         p {
           color: #7a7156;
           font-family: $text-color;
@@ -330,181 +313,36 @@ $bg-color: #edbfe3;
           font-size: 16px;
         }
       }
-  
+
       .form-container {
         width: 100%;
         height: auto;
         padding: 10px 0 10px 0;
-  
+
         .input-group {
           width: 95%;
           display: flex;
           flex-direction: column;
           margin: 20px auto;
-  
+
           label {
             width: auto;
             color: gray;
             font-family: monospace;
             font-size: 15px;
             font-weight: 600;
-  
-     
           }
-          input{
-              width: 100%;
-              height: 40px;
-              border-radius: 16px;
-              background: rgb(235, 235, 235);
-              border: none;
-             padding: 0 15px;
-             outline: none;
-              
-            }
-  
-  
-            textarea{
-              width: 100%;
-              height: 100px;
-              border-radius: 16px;
-              outline: none;
-              border: none;
-              background: rgb(235, 235, 235);
-              padding: 10px;
-            }
-  
-        }
-  
-      }
-    }
-  }
-}
-@media screen and (min-width: 447px) and (max-width: 769px){
-  
-.Concat-main {
-  width: 100%;
-  min-height: 100vh;
-  background: $bg-color;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  .concat-logo {
-    width: 400px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 15px 0;
-
-    a {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      align-items: center;
-
-      h3 {
-        color: white;
-        font-size: 45px;
-        line-height: 25px;
-
-        span {
-          font-size: 20px;
-          font-family: monospace;
-          text-transform: uppercase;
-          font-weight: 600;
-        }
-      }
-    }
-  }
-
-  .container {
-    width: 420px;
-    height: auto;
-    background: white;
-    clip-path: polygon(
-      0 0,
-      0 77%,
-      10% 81%,
-      0 86%,
-      0 100%,
-      46% 100%,
-      100% 100%,
-      100% 39%,
-      89% 34%,
-      100% 28%,
-      100% 0,
-      43% 0
-    );
-    border-radius: 12px;
-    z-index: 8;
-    padding: 15px 38px;
-
-    .concat-text {
-      width: 100%;
-      height: auto;
-      text-align: center;
-
-      h2 {
-        color: $text-color;
-        font-family: monospace;
-        font-size: 35px;
-      }
-
-      h3 {
-        color: $color-2;
-        font-family: monospace;
-        font-weight: bold;
-        font-size: 18px;
-      }
-
-      p {
-        color: #7a7156;
-        font-family: $text-color;
-        font-family: monospace;
-        margin: 10px 0;
-        font-weight: 600;
-        font-size: 16px;
-      }
-    }
-
-    .form-container {
-      width: 100%;
-      height: auto;
-      padding: 10px 0 10px 0;
-
-      .input-group {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
-        margin: 20px auto;
-
-        label {
-          width: auto;
-          color: gray;
-          font-family: monospace;
-          font-size: 15px;
-          font-weight: 600;
-          margin: 0 0 10px 5px;
-
-   
-        }
-        input{
+          input {
             width: 100%;
             height: 40px;
             border-radius: 16px;
-            // background: linear-gradient(0deg gray);
             background: rgb(235, 235, 235);
             border: none;
-           padding: 0 15px;
-           outline: none;
-
-            
+            padding: 0 15px;
+            outline: none;
           }
 
-
-          textarea{
+          textarea {
             width: 100%;
             height: 100px;
             border-radius: 16px;
@@ -513,108 +351,233 @@ $bg-color: #edbfe3;
             background: rgb(235, 235, 235);
             padding: 10px;
           }
-
+        }
       }
-      .submit-btn {
-        display: inline-block;
-        width: 100%;
-        background: linear-gradient(90deg, #fbc2eb, #a18cd1); /* Gradient fon */
-        color: #fff; /* Oq rangdagi matn */
-        border: none;
-        padding: 10px 15px;
-        font-size: 16px;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-align: center;
-        border-radius: 10px; /* Yumaloqlangan qirralar */
-        cursor: pointer;
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Soyali effekt */
-        transition: all 0.3s ease; /* Animatsiya */
-      }
-      
-      .submit-btn:hover {
-        transform: translateY(-2px); /* Hoverda biroz ko'tariladi */
-        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Hoverda soyali effekt kuchayadi */
-      }
-      
-      .submit-btn:active {
-        transform: translateY(0); /* Tugmani bosganda asl joyiga qaytadi */
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Tugmani bosganda soyasi kichrayadi */
-      }
-
-    
-      
-
-     
-
     }
   }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Yarim shaffof fon */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000; /* Modalni yuqoriga olib chiqish */
-  }
-  
-  .modal-content {
-    background: #fff; /* Oq fon */
-    padding: 20px;
-    border-radius: 10px; /* Yumaloq burchaklar */
-    width: 300px;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soyali effekt */
-    animation: modalFadeIn 0.3s ease-in-out; /* Animatsiya */
-  }
-  
-  .modal-content p {
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .close-btn {
-    background: #ddb2d4; /* Tugma uchun mos rang */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 14px;
-    border-radius: 5px; /* Yumaloq burchaklar */
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  .close-btn:hover {
-    background: #c095b8; /* Hoverda tugma rangi o'zgaradi */
-  }
-  
-  .close-btn:active {
-    background: #a17f9a; /* Tugma bosilganda rangi */
-  }
-
-
-
-  /* Modal paydo bo'lishi uchun animatsiya */
-  @keyframes modalFadeIn {
-    from {
-      opacity: 0;
-      transform: scale(0.8); /* Kichraytirilgan holatda boshlanadi */
-    }
-    to {
-      opacity: 1;
-      transform: scale(1); /* Asl o'lchamga qaytadi */
-    }
-  }
-  
-
-
 }
+@media screen and (min-width: 447px) and (max-width: 769px) {
+  .Concat-main {
+    width: 100%;
+    min-height: 100vh;
+    background: $bg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .concat-logo {
+      width: 400px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 15px 0;
+
+      a {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+
+        h3 {
+          color: white;
+          font-size: 45px;
+          line-height: 25px;
+
+          span {
+            font-size: 20px;
+            font-family: monospace;
+            text-transform: uppercase;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .container {
+      width: 420px;
+      height: auto;
+      background: white;
+      clip-path: polygon(
+        0 0,
+        0 77%,
+        10% 81%,
+        0 86%,
+        0 100%,
+        46% 100%,
+        100% 100%,
+        100% 39%,
+        89% 34%,
+        100% 28%,
+        100% 0,
+        43% 0
+      );
+      border-radius: 12px;
+      z-index: 8;
+      padding: 15px 38px;
+
+      .concat-text {
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+        h2 {
+          color: $text-color;
+          font-family: monospace;
+          font-size: 35px;
+        }
+
+        h3 {
+          color: $color-2;
+          font-family: monospace;
+          font-weight: bold;
+          font-size: 18px;
+        }
+
+        p {
+          color: #7a7156;
+          font-family: $text-color;
+          font-family: monospace;
+          margin: 10px 0;
+          font-weight: 600;
+          font-size: 16px;
+        }
+      }
+
+      .form-container {
+        width: 100%;
+        height: auto;
+        padding: 10px 0 10px 0;
+
+        .input-group {
+          width: 95%;
+          display: flex;
+          flex-direction: column;
+          margin: 20px auto;
+
+          label {
+            width: auto;
+            color: gray;
+            font-family: monospace;
+            font-size: 15px;
+            font-weight: 600;
+            margin: 0 0 10px 5px;
+          }
+          input {
+            width: 100%;
+            height: 40px;
+            border-radius: 16px;
+            // background: linear-gradient(0deg gray);
+            background: rgb(235, 235, 235);
+            border: none;
+            padding: 0 15px;
+            outline: none;
+          }
+
+          textarea {
+            width: 100%;
+            height: 100px;
+            border-radius: 16px;
+            outline: none;
+            border: none;
+            background: rgb(235, 235, 235);
+            padding: 10px;
+          }
+        }
+        .submit-btn {
+          display: inline-block;
+          width: 100%;
+          background: linear-gradient(
+            90deg,
+            #fbc2eb,
+            #a18cd1
+          ); /* Gradient fon */
+          color: #fff; /* Oq rangdagi matn */
+          border: none;
+          padding: 10px 15px;
+          font-size: 16px;
+          font-weight: bold;
+          text-transform: uppercase;
+          text-align: center;
+          border-radius: 10px; /* Yumaloqlangan qirralar */
+          cursor: pointer;
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Soyali effekt */
+          transition: all 0.3s ease; /* Animatsiya */
+        }
+
+        .submit-btn:hover {
+          transform: translateY(-2px); /* Hoverda biroz ko'tariladi */
+          box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Hoverda soyali effekt kuchayadi */
+        }
+
+        .submit-btn:active {
+          transform: translateY(0); /* Tugmani bosganda asl joyiga qaytadi */
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Tugmani bosganda soyasi kichrayadi */
+        }
+      }
+    }
+
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Yarim shaffof fon */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000; /* Modalni yuqoriga olib chiqish */
+    }
+
+    .modal-content {
+      background: #fff; /* Oq fon */
+      padding: 20px;
+      border-radius: 10px; /* Yumaloq burchaklar */
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soyali effekt */
+      animation: modalFadeIn 0.3s ease-in-out; /* Animatsiya */
+    }
+
+    .modal-content p {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .close-btn {
+      background: #ddb2d4; /* Tugma uchun mos rang */
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 5px; /* Yumaloq burchaklar */
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .close-btn:hover {
+      background: #c095b8; /* Hoverda tugma rangi o'zgaradi */
+    }
+
+    .close-btn:active {
+      background: #a17f9a; /* Tugma bosilganda rangi */
+    }
+
+    /* Modal paydo bo'lishi uchun animatsiya */
+    @keyframes modalFadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.8); /* Kichraytirilgan holatda boshlanadi */
+      }
+      to {
+        opacity: 1;
+        transform: scale(1); /* Asl o'lchamga qaytadi */
+      }
+    }
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 960px) {
   .Concat-main {
@@ -625,7 +588,7 @@ $bg-color: #edbfe3;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
+
     .concat-logo {
       width: 400px;
       height: auto;
@@ -633,18 +596,18 @@ $bg-color: #edbfe3;
       align-items: center;
       justify-content: center;
       margin: 15px 0;
-  
+
       a {
         display: flex;
         justify-content: center;
         gap: 15px;
         align-items: center;
-  
+
         h3 {
           color: white;
           font-size: 45px;
           line-height: 25px;
-  
+
           span {
             font-size: 20px;
             font-family: monospace;
@@ -654,7 +617,7 @@ $bg-color: #edbfe3;
         }
       }
     }
-  
+
     .container {
       width: 420px;
       height: auto;
@@ -676,25 +639,25 @@ $bg-color: #edbfe3;
       border-radius: 12px;
       z-index: 8;
       padding: 15px 38px;
-  
+
       .concat-text {
         width: 100%;
         height: auto;
         text-align: center;
-  
+
         h2 {
           color: $text-color;
           font-family: monospace;
           font-size: 35px;
         }
-  
+
         h3 {
           color: $color-2;
           font-family: monospace;
           font-weight: bold;
           font-size: 18px;
         }
-  
+
         p {
           color: #7a7156;
           font-family: $text-color;
@@ -704,18 +667,18 @@ $bg-color: #edbfe3;
           font-size: 16px;
         }
       }
-  
+
       .form-container {
         width: 100%;
         height: auto;
         padding: 10px 0 10px 0;
-  
+
         .input-group {
           width: 95%;
           display: flex;
           flex-direction: column;
           margin: 20px auto;
-  
+
           label {
             width: auto;
             color: gray;
@@ -723,38 +686,36 @@ $bg-color: #edbfe3;
             font-size: 15px;
             font-weight: 600;
             margin: 0 0 10px 5px;
-  
-     
           }
-          input{
-              width: 100%;
-              height: 40px;
-              border-radius: 16px;
-              // background: linear-gradient(0deg gray);
-              background: rgb(235, 235, 235);
-              border: none;
-             padding: 0 15px;
-             outline: none;
-  
-              
-            }
-  
-  
-            textarea{
-              width: 100%;
-              height: 100px;
-              border-radius: 16px;
-              outline: none;
-              border: none;
-              background: rgb(235, 235, 235);
-              padding: 10px;
-            }
-  
+          input {
+            width: 100%;
+            height: 40px;
+            border-radius: 16px;
+            // background: linear-gradient(0deg gray);
+            background: rgb(235, 235, 235);
+            border: none;
+            padding: 0 15px;
+            outline: none;
+          }
+
+          textarea {
+            width: 100%;
+            height: 100px;
+            border-radius: 16px;
+            outline: none;
+            border: none;
+            background: rgb(235, 235, 235);
+            padding: 10px;
+          }
         }
         .submit-btn {
           display: inline-block;
           width: 100%;
-          background: linear-gradient(90deg, #fbc2eb, #a18cd1); /* Gradient fon */
+          background: linear-gradient(
+            90deg,
+            #fbc2eb,
+            #a18cd1
+          ); /* Gradient fon */
           color: #fff; /* Oq rangdagi matn */
           border: none;
           padding: 10px 15px;
@@ -767,25 +728,19 @@ $bg-color: #edbfe3;
           box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Soyali effekt */
           transition: all 0.3s ease; /* Animatsiya */
         }
-        
+
         .submit-btn:hover {
           transform: translateY(-2px); /* Hoverda biroz ko'tariladi */
           box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Hoverda soyali effekt kuchayadi */
         }
-        
+
         .submit-btn:active {
           transform: translateY(0); /* Tugmani bosganda asl joyiga qaytadi */
           box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Tugmani bosganda soyasi kichrayadi */
         }
-  
-      
-        
-  
-       
-  
       }
     }
-  
+
     .modal {
       position: fixed;
       top: 0;
@@ -798,7 +753,7 @@ $bg-color: #edbfe3;
       justify-content: center;
       z-index: 1000; /* Modalni yuqoriga olib chiqish */
     }
-    
+
     .modal-content {
       background: #fff; /* Oq fon */
       padding: 20px;
@@ -808,13 +763,13 @@ $bg-color: #edbfe3;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soyali effekt */
       animation: modalFadeIn 0.3s ease-in-out; /* Animatsiya */
     }
-    
+
     .modal-content p {
       font-size: 16px;
       color: #333;
       margin-bottom: 20px;
     }
-    
+
     .close-btn {
       background: #ddb2d4; /* Tugma uchun mos rang */
       color: #fff;
@@ -825,17 +780,15 @@ $bg-color: #edbfe3;
       cursor: pointer;
       transition: background 0.3s;
     }
-    
+
     .close-btn:hover {
       background: #c095b8; /* Hoverda tugma rangi o'zgaradi */
     }
-    
+
     .close-btn:active {
       background: #a17f9a; /* Tugma bosilganda rangi */
     }
-  
-  
-  
+
     /* Modal paydo bo'lishi uchun animatsiya */
     @keyframes modalFadeIn {
       from {
@@ -847,12 +800,9 @@ $bg-color: #edbfe3;
         transform: scale(1); /* Asl o'lchamga qaytadi */
       }
     }
-    
-  
-  
   }
 }
-@media screen and (min-width: 960px) and (max-width: 1200px){
+@media screen and (min-width: 960px) and (max-width: 1200px) {
   .Concat-main {
     width: 100%;
     min-height: 100vh;
@@ -861,7 +811,7 @@ $bg-color: #edbfe3;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
+
     .concat-logo {
       width: 400px;
       height: auto;
@@ -869,18 +819,18 @@ $bg-color: #edbfe3;
       align-items: center;
       justify-content: center;
       margin: 15px 0;
-  
+
       a {
         display: flex;
         justify-content: center;
         gap: 15px;
         align-items: center;
-  
+
         h3 {
           color: white;
           font-size: 45px;
           line-height: 25px;
-  
+
           span {
             font-size: 20px;
             font-family: monospace;
@@ -890,7 +840,7 @@ $bg-color: #edbfe3;
         }
       }
     }
-  
+
     .container {
       width: 420px;
       height: auto;
@@ -912,25 +862,25 @@ $bg-color: #edbfe3;
       border-radius: 12px;
       z-index: 8;
       padding: 15px 38px;
-  
+
       .concat-text {
         width: 100%;
         height: auto;
         text-align: center;
-  
+
         h2 {
           color: $text-color;
           font-family: monospace;
           font-size: 35px;
         }
-  
+
         h3 {
           color: $color-2;
           font-family: monospace;
           font-weight: bold;
           font-size: 18px;
         }
-  
+
         p {
           color: #7a7156;
           font-family: $text-color;
@@ -940,18 +890,18 @@ $bg-color: #edbfe3;
           font-size: 16px;
         }
       }
-  
+
       .form-container {
         width: 100%;
         height: auto;
         padding: 10px 0 10px 0;
-  
+
         .input-group {
           width: 95%;
           display: flex;
           flex-direction: column;
           margin: 20px auto;
-  
+
           label {
             width: auto;
             color: gray;
@@ -959,38 +909,36 @@ $bg-color: #edbfe3;
             font-size: 15px;
             font-weight: 600;
             margin: 0 0 10px 5px;
-  
-     
           }
-          input{
-              width: 100%;
-              height: 40px;
-              border-radius: 16px;
-              // background: linear-gradient(0deg gray);
-              background: rgb(235, 235, 235);
-              border: none;
-             padding: 0 15px;
-             outline: none;
-  
-              
-            }
-  
-  
-            textarea{
-              width: 100%;
-              height: 100px;
-              border-radius: 16px;
-              outline: none;
-              border: none;
-              background: rgb(235, 235, 235);
-              padding: 10px;
-            }
-  
+          input {
+            width: 100%;
+            height: 40px;
+            border-radius: 16px;
+            // background: linear-gradient(0deg gray);
+            background: rgb(235, 235, 235);
+            border: none;
+            padding: 0 15px;
+            outline: none;
+          }
+
+          textarea {
+            width: 100%;
+            height: 100px;
+            border-radius: 16px;
+            outline: none;
+            border: none;
+            background: rgb(235, 235, 235);
+            padding: 10px;
+          }
         }
         .submit-btn {
           display: inline-block;
           width: 100%;
-          background: linear-gradient(90deg, #fbc2eb, #a18cd1); /* Gradient fon */
+          background: linear-gradient(
+            90deg,
+            #fbc2eb,
+            #a18cd1
+          ); /* Gradient fon */
           color: #fff; /* Oq rangdagi matn */
           border: none;
           padding: 10px 15px;
@@ -1003,25 +951,19 @@ $bg-color: #edbfe3;
           box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Soyali effekt */
           transition: all 0.3s ease; /* Animatsiya */
         }
-        
+
         .submit-btn:hover {
           transform: translateY(-2px); /* Hoverda biroz ko'tariladi */
           box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Hoverda soyali effekt kuchayadi */
         }
-        
+
         .submit-btn:active {
           transform: translateY(0); /* Tugmani bosganda asl joyiga qaytadi */
           box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Tugmani bosganda soyasi kichrayadi */
         }
-  
-      
-        
-  
-       
-  
       }
     }
-  
+
     .modal {
       position: fixed;
       top: 0;
@@ -1034,7 +976,7 @@ $bg-color: #edbfe3;
       justify-content: center;
       z-index: 1000; /* Modalni yuqoriga olib chiqish */
     }
-    
+
     .modal-content {
       background: #fff; /* Oq fon */
       padding: 20px;
@@ -1044,13 +986,13 @@ $bg-color: #edbfe3;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soyali effekt */
       animation: modalFadeIn 0.3s ease-in-out; /* Animatsiya */
     }
-    
+
     .modal-content p {
       font-size: 16px;
       color: #333;
       margin-bottom: 20px;
     }
-    
+
     .close-btn {
       background: #ddb2d4; /* Tugma uchun mos rang */
       color: #fff;
@@ -1061,17 +1003,15 @@ $bg-color: #edbfe3;
       cursor: pointer;
       transition: background 0.3s;
     }
-    
+
     .close-btn:hover {
       background: #c095b8; /* Hoverda tugma rangi o'zgaradi */
     }
-    
+
     .close-btn:active {
       background: #a17f9a; /* Tugma bosilganda rangi */
     }
-  
-  
-  
+
     /* Modal paydo bo'lishi uchun animatsiya */
     @keyframes modalFadeIn {
       from {
@@ -1083,9 +1023,5 @@ $bg-color: #edbfe3;
         transform: scale(1); /* Asl o'lchamga qaytadi */
       }
     }
-    
-  
-  
   }
-  
 }

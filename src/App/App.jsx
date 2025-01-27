@@ -8,6 +8,7 @@ const About = React.lazy(() => import("../Page/About"));
 const Concat = React.lazy(() => import("../Page/Concat"));
 const Greetings = React.lazy(() => import("../Page/Greetings"));
 const Navbar = React.lazy(() => import("../Components/Navbar/Navbar"));
+const Shop = React.lazy(() => import("../Page/Shop")); // Shop sahifasini import qilamiz
 
 function App() {
   const [loading, setLoading] = useState(true); // Yuklanish holati
@@ -61,6 +62,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/greetings" element={<Greetings />} />
           <Route path="/concat" element={<Concat />} />
+          <Route path="/shop/:productId" element={<Shop />} /> {/* Dinamik route */}
         </Routes>
       </Suspense>
     </>

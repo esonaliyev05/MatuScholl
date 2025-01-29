@@ -37,7 +37,6 @@ function App() {
   }, []);
 
   if (loading) {
-    // Loader sayt to‘liq yuklangunga qadar ko‘rinadi
     return (
       <div className="loader-container">
         <div className="spinner"></div>
@@ -62,7 +61,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/greetings" element={<Greetings />} />
           <Route path="/concat" element={<Concat />} />
-          <Route path="/shop/:productId" element={<Shop />} /> {/* Dinamik route */}
+          <Route path="/shop/:productId" element={<Shop />} />{" "}
+          {/* Dinamik route */}
         </Routes>
       </Suspense>
     </>
